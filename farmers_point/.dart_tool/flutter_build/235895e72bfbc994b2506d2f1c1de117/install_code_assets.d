@@ -1,0 +1,1 @@
+ C:\\Users\\mayan\\Documents\\GitHub\\CloudCampus-App-Frontend\\farmers_point\\.dart_tool\\flutter_build\\235895e72bfbc994b2506d2f1c1de117\\native_assets.json: 

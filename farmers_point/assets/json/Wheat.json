@@ -1,0 +1,88 @@
+{
+  "plant_name": "Wheat",
+  "scientific_name": "Triticum aestivum",
+  "description": "Wheat is a staple food crop grown worldwide, primarily for its grain, which is used to make flour for bread, pasta, and other products. It is cultivated in a wide range of climates, from temperate to subtropical regions, with varieties adapted to different growing conditions.",
+  "uses": [
+    "Flour for baking",
+    "Pasta production",
+    "Animal feed",
+    "Biofuel (ethanol)",
+    "Snack foods and breakfast cereals"
+  ],
+  "climate": {
+    "temperature": {
+      "optimal_range": "15°C to 20°C",
+      "too_low": "Below 10°C",
+      "too_high": "Above 35°C"
+    },
+    "humidity": {
+      "optimal_range": "50% to 70%"
+    },
+    "soil": {
+      "type": "Well-drained, loamy soils with good fertility",
+      "pH_range": "6.0 to 7.5"
+    },
+    "watering": "Wheat requires moderate water during the growing season, especially during germination and flowering stages. Over-watering can lead to diseases like rust."
+  },
+  "diseases": [
+    {
+      "disease_name": "Wheat Brown Rust",
+      "scientific_name": "Puccinia triticina",
+      "symptoms": [
+        "Small, round, orange-brown pustules on the upper side of leaves.",
+        "Yellowing and chlorosis around the lesions.",
+        "Premature leaf death and reduced photosynthetic capacity.",
+        "Stunting of plant growth and lower yield potential."
+      ],
+      "background": {
+        "cause": "Fungal disease caused by *Puccinia triticina*, affecting wheat plants by producing orange-brown pustules on leaves.",
+        "spread_by": "Wind, rain, and infected plant material."
+      },
+      "cure": [
+        "Apply fungicides like Tebuconazole or Propiconazole to control the rust.",
+        "Remove and destroy infected plants and plant debris.",
+        "Use resistant wheat varieties to minimize the impact of the disease."
+      ],
+      "fertilizers": "Use balanced fertilizers, especially nitrogen, to support plant health and increase resistance to diseases.",
+      "prevention": [
+        "Plant resistant wheat varieties.",
+        "Use certified disease-free seeds.",
+        "Practice crop rotation to reduce pathogen buildup in the soil.",
+        "Control the spread of rust by spraying with fungicides as soon as symptoms appear."
+      ]
+    },
+    {
+      "disease_name": "Wheat Yellow Rust",
+      "scientific_name": "Puccinia striiformis f.sp. tritici",
+      "symptoms": [
+        "Yellow streaks or lines on the leaves, often along the veins.",
+        "Light yellow or orange pustules on the underside of leaves.",
+        "Premature leaf senescence and reduced grain fill.",
+        "Infected plants show stunted growth, lower yield, and poor quality grain."
+      ],
+      "background": {
+        "cause": "Fungal disease caused by *Puccinia striiformis f.sp. tritici*, characterized by yellow streaks or lines on wheat leaves.",
+        "spread_by": "Wind and contaminated plant material."
+      },
+      "cure": [
+        "Use fungicides like Azoxystrobin or Chlorothalonil to control the rust.",
+        "Remove infected plants and surrounding debris to reduce pathogen spread.",
+        "Adopt resistant wheat varieties where available."
+      ],
+      "fertilizers": "Use fertilizers rich in nitrogen and potassium to support plant growth and reduce susceptibility to disease.",
+      "prevention": [
+        "Plant resistant wheat varieties or those with partial resistance.",
+        "Use clean, disease-free seeds.",
+        "Practice crop rotation to reduce rust pathogen pressure.",
+        "Avoid planting wheat in fields previously infected with yellow rust."
+      ]
+    }
+  ],
+  "preventive_practices": [
+    "Use disease-resistant wheat varieties that are tolerant to rust diseases.",
+    "Regularly monitor the crop for early signs of rust and apply fungicides at the first sign of infection.",
+    "Practice crop rotation to reduce the buildup of rust spores in the soil.",
+    "Use certified disease-free seeds and avoid using seeds from infected plants.",
+    "Ensure proper field sanitation by removing plant residues after harvest to limit the spread of the disease."
+  ]
+}

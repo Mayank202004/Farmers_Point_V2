@@ -1,0 +1,203 @@
+{
+  "plant_name": "Mango Leaf",
+  "scientific_name": "Mangifera indica",
+  "description": "Mango leaves are long, narrow, and leathery with a pointed tip. They are evergreen and play a significant role in the photosynthesis process of mango trees. Mango leaves are also known for their medicinal properties and are widely used in traditional medicine, as well as in cultural and religious rituals.",
+  "uses": [
+    "Preparation of herbal teas and extracts for medicinal purposes.",
+    "Used in religious ceremonies and decorations.",
+    "Traditional remedies for managing diabetes and respiratory issues.",
+    "Source of antioxidants and natural compounds for health benefits."
+  ],
+  "climate": {
+    "temperature": {
+      "optimal_range": "24°C to 27°C",
+      "too_low": "Below 10°C",
+      "too_high": "Above 40°C"
+    },
+    "humidity": {
+      "optimal_range": "50% to 80%"
+    },
+    "soil": {
+      "type": "Well-drained, sandy loam soils with good fertility",
+      "pH_range": "5.5 to 7.5"
+    },
+    "watering": "Mango trees require moderate watering, especially during the growth and flowering stages. Avoid overwatering to prevent root diseases."
+  },
+  "diseases": [
+    {
+      "disease_name": "Mango Anthracnose",
+      "scientific_name": "Colletotrichum gloeosporioides",
+      "symptoms": [
+        "Dark, irregular spots on leaves and fruits.",
+        "Leaves may curl and fall prematurely.",
+        "Reduced photosynthetic activity due to leaf damage."
+      ],
+      "background": {
+        "cause": "Fungal disease thriving in humid and wet conditions.",
+        "spread_by": "Rain splashes, wind, and infected plant material."
+      },
+      "cure": [
+        "Spray copper-based fungicides during high humidity periods.",
+        "Remove and destroy infected leaves and fruits.",
+        "Avoid overhead irrigation."
+      ],
+      "fertilizers": "Balanced fertilizers with potassium and phosphorus.",
+      "prevention": [
+        "Plant resistant mango varieties where available.",
+        "Prune trees to improve air circulation.",
+        "Apply preventive fungicides during wet seasons."
+      ]
+    },
+    {
+      "disease_name": "Mango Bacterial Canker",
+      "scientific_name": "Xanthomonas campestris pv. mangiferaeindicae",
+      "symptoms": [
+        "Watery, dark spots on leaves and stems.",
+        "Cracking of bark with gummy exudation.",
+        "Leaf curling and premature fruit drop."
+      ],
+      "background": {
+        "cause": "Bacterial infection, often due to wounds or cuts.",
+        "spread_by": "Rain splashes and contaminated tools."
+      },
+      "cure": [
+        "Prune and burn infected branches.",
+        "Apply copper oxychloride sprays to control bacterial growth.",
+        "Sterilize tools to avoid contamination."
+      ],
+      "fertilizers": "Balanced fertilizers with micronutrients for plant recovery.",
+      "prevention": [
+        "Avoid overcrowding and ensure good ventilation.",
+        "Apply copper-based bactericides during wet periods.",
+        "Maintain orchard hygiene to reduce bacterial sources."
+      ]
+    },
+    {
+      "disease_name": "Mango Cutting Weevil",
+      "scientific_name": "Sternochetus mangiferae",
+      "symptoms": [
+        "Tunnels in fruits caused by larvae.",
+        "Premature fruit drop.",
+        "Discoloration and decay in affected fruits."
+      ],
+      "background": {
+        "cause": "Insect infestation where larvae burrow into fruit.",
+        "spread_by": "Infested fruits or nearby infected trees."
+      },
+      "cure": [
+        "Spray insecticides like carbaryl during egg-laying periods.",
+        "Collect and destroy fallen, infested fruits.",
+        "Use pheromone traps to monitor weevil activity."
+      ],
+      "fertilizers": "Phosphorus and potassium to promote healthy fruit development.",
+      "prevention": [
+        "Maintain clean orchards by removing debris.",
+        "Apply insecticides at regular intervals during weevil activity.",
+        "Avoid planting near known infestation zones."
+      ]
+    },
+    {
+      "disease_name": "Mango Die Back",
+      "scientific_name": "Botryodiplodia theobromae",
+      "symptoms": [
+        "Drying of branches from the tip backward.",
+        "Brown discoloration of vascular tissue.",
+        "Premature leaf drop and reduced tree vigor."
+      ],
+      "background": {
+        "cause": "Fungal infection exacerbated by poor management.",
+        "spread_by": "Infected plant debris and poor pruning hygiene."
+      },
+      "cure": [
+        "Prune infected branches and apply fungicides to cuts.",
+        "Spray copper-based fungicides during early stages.",
+        "Improve tree health through proper nutrition."
+      ],
+      "fertilizers": "Balanced nutrients to support overall tree health.",
+      "prevention": [
+        "Regular pruning to remove dead wood.",
+        "Apply fungicides preventively during stress periods.",
+        "Avoid water stress and ensure proper irrigation."
+      ]
+    },
+    {
+      "disease_name": "Mango Gall Midge",
+      "scientific_name": "Procontarinia matteiana",
+      "symptoms": [
+        "Raised galls on leaves.",
+        "Distorted and discolored leaves.",
+        "Severe infestations lead to leaf drop."
+      ],
+      "background": {
+        "cause": "Insect infestation laying eggs in leaf tissue.",
+        "spread_by": "Adult midges flying from infected trees."
+      },
+      "cure": [
+        "Spray insecticides like imidacloprid.",
+        "Remove and destroy infested leaves.",
+        "Use sticky traps to monitor adult midges."
+      ],
+      "fertilizers": "Nitrogen-rich fertilizers to promote healthy leaf growth.",
+      "prevention": [
+        "Clean orchards by removing debris.",
+        "Encourage natural predators of midges.",
+        "Avoid planting in infested areas."
+      ]
+    },
+    {
+      "disease_name": "Mango Powdery Mildew",
+      "scientific_name": "Oidium mangiferae",
+      "symptoms": [
+        "White, powdery growth on leaf surfaces.",
+        "Curling and drying of leaves.",
+        "Premature leaf fall."
+      ],
+      "background": {
+        "cause": "Fungal disease thriving in cool, dry weather.",
+        "spread_by": "Airborne spores."
+      },
+      "cure": [
+        "Apply sulfur-based fungicides.",
+        "Improve air circulation through pruning.",
+        "Spray neem oil as a natural remedy."
+      ],
+      "fertilizers": "Potassium-rich fertilizers to improve leaf resilience.",
+      "prevention": [
+        "Proper spacing and pruning.",
+        "Apply fungicides during early signs of infection.",
+        "Avoid planting in low-lying areas prone to humidity."
+      ]
+    },
+    {
+      "disease_name": "Mango Sooty Mould",
+      "scientific_name": "Capnodium mangiferae",
+      "symptoms": [
+        "Black, soot-like coating on leaves and fruits.",
+        "Reduced photosynthesis and fruit quality.",
+        "Sticky honeydew residue on leaves."
+      ],
+      "background": {
+        "cause": "Fungal growth on honeydew secreted by insects.",
+        "spread_by": "Presence of sap-sucking insects like aphids and mealybugs."
+      },
+      "cure": [
+        "Control insect populations using neem oil or insecticides.",
+        "Wash leaves with water to remove soot and improve photosynthesis.",
+        "Apply fungicides for severe infections."
+      ],
+      "fertilizers": "Balanced fertilizers to maintain tree vigor.",
+      "prevention": [
+        "Control sap-sucking insects to prevent honeydew accumulation.",
+        "Maintain clean orchards to reduce fungal sources.",
+        "Regular inspection for insect activity."
+      ]
+    }
+  ],
+  "preventive_practices": [
+    "Regularly inspect leaves for early signs of disease or pest infestation.",
+    "Use resistant mango varieties adapted to local conditions.",
+    "Maintain proper spacing between trees for air circulation.",
+    "Remove and destroy infected leaves or branches to prevent spread.",
+    "Apply preventive fungicides or insecticides during vulnerable growth stages."
+  ]
+}

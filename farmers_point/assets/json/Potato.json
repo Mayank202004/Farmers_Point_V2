@@ -1,0 +1,97 @@
+{
+  "plant_name": "Potato",
+  "scientific_name": "Solanum tuberosum",
+  "description": "Potato is a widely cultivated root vegetable rich in carbohydrates, vitamins C and B6, potassium, and dietary fiber. It is a staple food in many cultures and used in various culinary dishes such as fries, stews, soups, and curries.",
+  "uses": [
+    "Fries",
+    "Mashed potatoes",
+    "Curries",
+    "Stews",
+    "Soups",
+    "Potato chips",
+    "Baked potatoes"
+  ],
+  "climate": {
+    "temperature": {
+      "optimal_range": "15°C to 20°C",
+      "too_low": "Below 5°C",
+      "too_high": "Above 30°C"
+    },
+    "humidity": {
+      "optimal_range": "70% to 90%"
+    },
+    "soil": {
+      "type": "Well-drained, sandy or loamy soil with high organic matter",
+      "pH_range": "5.0 to 6.5"
+    },
+    "watering": "Water regularly but avoid waterlogging, especially during tuber formation. Use drip irrigation to prevent leaf wetting."
+  },
+  "diseases": [
+    {
+      "disease_name": "Potato Early Blight",
+      "scientific_name": "Alternaria solani",
+      "symptoms": [
+        "Dark brown or black spots with concentric rings, often forming a target-like pattern on leaves",
+        "Yellowing of leaves around spots, leading to defoliation",
+        "Reduced tuber growth and yield due to decreased photosynthesis"
+      ],
+      "background": {
+        "cause": "Fungal pathogen *Alternaria solani*, which thrives in warm and humid conditions.",
+        "spread_by": "Contaminated soil, infected plant debris, rain splash, and wind."
+      },
+      "cure": [
+        "Apply fungicides such as Mancozeb or Chlorothalonil early in the season to manage infection.",
+        "Use organic treatments like neem oil or copper-based fungicides as preventive measures.",
+        "Avoid overhead watering to reduce leaf wetness and prevent fungal growth.",
+        "Remove and dispose of infected plant material to reduce fungal spores in the environment.",
+        "Apply fungicides periodically, especially during warm and humid conditions."
+      ],
+      "fertilizers": "Use balanced fertilizers high in potassium to strengthen plant resistance. Avoid excess nitrogen, which may increase susceptibility to fungal infections.",
+      "prevention": [
+        "Space plants adequately for good air circulation and to minimize humidity levels around foliage.",
+        "Mulch the base of plants to prevent soil splashing that may spread fungal spores.",
+        "Practice crop rotation to avoid planting potatoes or tomatoes in the same area year after year.",
+        "Remove any plant debris after the growing season to eliminate potential sources of fungal spores.",
+        "Monitor plants regularly and remove affected leaves at the first sign of infection."
+      ]
+    },
+    {
+      "disease_name": "Potato Late Blight",
+      "scientific_name": "Phytophthora infestans",
+      "symptoms": [
+        "Large, dark, water-soaked lesions on leaves and stems",
+        "White fungal growth under the leaves during humid conditions",
+        "Tuber rot with brown, granular patches extending through the flesh"
+      ],
+      "background": {
+        "cause": "Fungus-like pathogen *Phytophthora infestans*, which spreads rapidly in cool, moist conditions.",
+        "spread_by": "Wind, rain splash, and infected seed tubers."
+      },
+      "cure": [
+        "Apply fungicides such as Metalaxyl or Mancozeb at the onset of symptoms.",
+        "Remove and destroy infected plants to prevent disease spread.",
+        "Spray fungicides at regular intervals during rainy periods to protect healthy plants.",
+        "Ensure thorough soil drainage to prevent waterlogging around the plant roots.",
+        "Regularly disinfect tools and equipment after working with infected plants to prevent contamination."
+      ],
+      "fertilizers": "Apply fertilizers high in potassium and low in nitrogen to boost plant immunity and improve resilience against blight.",
+      "prevention": [
+        "Plant disease-resistant varieties when available for your region.",
+        "Space plants to ensure good air circulation, reducing the likelihood of moisture accumulation.",
+        "Avoid overhead watering and water at the base to prevent fungal spores from splashing onto foliage.",
+        "Rotate crops yearly and avoid planting potatoes or tomatoes in the same soil for at least two years.",
+        "Dispose of all plant debris away from the garden to avoid overwintering of pathogens in the soil.",
+        "Use certified disease-free seed potatoes to prevent initial infection and spread."
+      ]
+    }
+  ],
+  "preventive_practices": [
+    "Plant certified disease-free seed potatoes",
+    "Rotate crops to avoid buildup of soil-borne pathogens",
+    "Apply mulch to reduce soil splashing and conserve moisture",
+    "Use drip irrigation to keep leaves dry and prevent fungal infections",
+    "Space plants for optimal air circulation",
+    "Remove and destroy infected plant material to prevent disease spread",
+    "Use disease-resistant varieties whenever possible"
+  ]
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Potato",
+    "appearance_when_healthy": "Green leaves with no spots or discoloration. Firm, smooth, and undamaged tubers.",
+    "maintenance_instructions": "Requires well-drained soil, moderate water, and full sunlight. Avoid overwatering and ensure good air circulation around plants.",
+    "optimal_conditions": "Cool climate with temperatures between 15-20°C. Soil should be loose, fertile, and slightly acidic (pH 5.5-6.5).",
+    "growth_stages": "Planting, Vegetative growth, Tuber formation, Harvesting.",
+    "key_benefits": "Rich in carbohydrates, vitamin C, and potassium. Great source of energy and essential nutrients."
+  },
+  {
+    "name": "Tomato",
+    "appearance_when_healthy": "Bright green, firm leaves with no yellowing. Red, smooth fruits without wrinkles or spots.",
+    "maintenance_instructions": "Prefers full sunlight and well-drained soil. Needs regular watering and occasional pruning to prevent overcrowding.",
+    "optimal_conditions": "Warm climate (20-30°C). Well-drained, slightly acidic soil (pH 6.0-6.8).",
+    "growth_stages": "Germination, Seedling, Vegetative growth, Flowering, Fruiting, Harvesting.",
+    "key_benefits": "High in antioxidants, vitamin C, and lycopene. Helps boost the immune system and improve heart health."
+  },
+  {
+    "name": "Pumpkin",
+    "appearance_when_healthy": "Bright green leaves, sturdy vines, and orange pumpkins with smooth skin and no spots.",
+    "maintenance_instructions": "Requires full sunlight and well-drained soil. Needs ample space for vine growth and moderate watering to prevent drying out.",
+    "optimal_conditions": "Warm weather (25-30°C) with plenty of sunlight. Soil should be rich in organic matter, well-drained, and slightly acidic (pH 6.0-6.8).",
+    "growth_stages": "Germination, Vegetative growth, Flowering, Fruiting, Harvesting.",
+    "key_benefits": "Good source of vitamin A, fiber, and potassium. Promotes eye health and supports digestive function."
+  },
+  {
+    "name": "Sugarcane",
+    "appearance_when_healthy": "Tall, green, and healthy stalks with no yellowing or browning.",
+    "maintenance_instructions": "Requires warm climate, fertile soil, and regular irrigation. Keep soil moist but not waterlogged.",
+    "optimal_conditions": "Tropical climate with temperatures between 20-30°C. Requires well-drained soil rich in organic matter.",
+    "growth_stages": "Germination, Vegetative growth, Tillering, Maturation, Harvesting.",
+    "key_benefits": "Rich in sugar, fiber, and antioxidants. Supports energy production and digestive health."
+  },
+  {
+    "name": "Rice",
+    "appearance_when_healthy": "Bright green leaves, firm stems, and no discoloration in the grains.",
+    "maintenance_instructions": "Prefers a flooded field (paddy) with warm weather and adequate sunlight. Needs consistent water supply.",
+    "optimal_conditions": "Tropical and subtropical climate. Requires temperatures of 22-30°C and waterlogged soil.",
+    "growth_stages": "Germination, Seedling, Vegetative growth, Flowering, Maturation, Harvesting.",
+    "key_benefits": "Rich in carbohydrates and essential vitamins. A staple food providing energy and nutrients."
+  },
+  {
+    "name": "Apple",
+    "appearance_when_healthy": "Green leaves, bright red or green fruit with no bruises or blemishes.",
+    "maintenance_instructions": "Requires well-drained soil and full sunlight. Needs regular watering, but avoid overwatering to prevent root rot.",
+    "optimal_conditions": "Cool climate (15-24°C) with well-drained, slightly acidic soil (pH 6.0-6.8).",
+    "growth_stages": "Planting, Vegetative growth, Flowering, Fruiting, Harvesting.",
+    "key_benefits": "High in fiber, vitamin C, and antioxidants. Supports heart health and promotes healthy digestion.",
+    "diseases": [
+      "Apple Scab",
+      "Black Rot",
+      "Cedar Apple Rust",
+      "Healthy"
+    ]
+  },
+  {
+    "name": "Wheat",
+    "appearance_when_healthy": "Tall, green, and upright plants with no yellowing or wilting.",
+    "maintenance_instructions": "Prefers cool weather and well-drained soil. Needs consistent watering during germination and tillering.",
+    "optimal_conditions": "Cool climate (15-20°C). Well-drained soil with a pH of 6.0-7.0.",
+    "growth_stages": "Germination, Seedling, Tillering, Jointing, Heading, Maturation, Harvesting.",
+    "key_benefits": "Rich in fiber, B vitamins, and iron. Helps in weight management and promotes digestive health."
+  },
+  {
+    "name": "Cotton",
+    "appearance_when_healthy": "Green leaves and cotton bolls that are fluffy, white, and undamaged.",
+    "maintenance_instructions": "Requires a warm climate, full sunlight, and regular watering to prevent drought stress.",
+    "optimal_conditions": "Hot climate (25-35°C). Soil should be light, well-drained, and slightly alkaline (pH 7.0-7.5).",
+    "growth_stages": "Germination, Vegetative growth, Flowering, Fruiting, Harvesting.",
+    "key_benefits": "Used for textile production and contains trace amounts of oil. Helps in fabric production and agriculture."
+  },
+  {
+    "name": "Cucumber",
+    "appearance_when_healthy": "Vibrant green leaves with crisp, smooth, and unblemished cucumbers.",
+    "maintenance_instructions": "Needs moderate water, full sunlight, and well-drained soil. Keep soil consistently moist but not soggy.",
+    "optimal_conditions": "Warm climate (22-30°C) with plenty of sunlight. Soil should be rich in organic matter, well-drained, and slightly acidic (pH 6.0-6.8).",
+    "growth_stages": "Germination, Seedling, Vegetative growth, Flowering, Fruiting, Harvesting.",
+    "key_benefits": "Low in calories, high in water content, and a good source of vitamin K. Supports hydration and skin health."
+  },
+  {
+    "name": "Pomegranate",
+    "appearance_when_healthy": "Bright green leaves with vibrant red flowers and smooth, rounded fruits with no cracks.",
+    "maintenance_instructions": "Requires well-drained soil, full sunlight, and moderate watering. Allow the soil to dry slightly between waterings.",
+    "optimal_conditions": "Warm climate (20-30°C) with full sunlight. Soil should be slightly acidic (pH 6.0-7.0) and well-drained.",
+    "growth_stages": "Germination, Seedling, Vegetative growth, Flowering, Fruiting, Harvesting.",
+    "key_benefits": "Rich in antioxidants, vitamin C, and fiber. Promotes heart health and reduces inflammation."
+  },
+  {
+    "name": "Guava",
+    "appearance_when_healthy": "Bright green leaves, strong stems, and smooth, ripe fruits with no dark spots.",
+    "maintenance_instructions": "Prefers warm climates, full sunlight, and regular watering. Keep soil slightly moist but not waterlogged.",
+    "optimal_conditions": "Tropical climate (22-30°C). Soil should be well-drained and slightly acidic (pH 5.5-6.5).",
+    "growth_stages": "Germination, Seedling, Vegetative growth, Flowering, Fruiting, Harvesting.",
+    "key_benefits": "High in vitamin C, fiber, and antioxidants. Supports immune health and digestive function."
+  },
+  {
+    "name": "Grapes",
+    "appearance_when_healthy": "Green, well-formed leaves with large, plump grapes on strong vines.",
+    "maintenance_instructions": "Requires full sunlight, well-drained soil, and regular pruning to maintain vine health and promote fruiting.",
+    "optimal_conditions": "Warm climate (25-30°C) with plenty of sunlight. Soil should be well-drained, slightly acidic (pH 6.0-6.5).",
+    "growth_stages": "Germination, Vegetative growth, Flowering, Fruiting, Harvesting.",
+    "key_benefits": "Rich in antioxidants, vitamin C, and potassium. Supports cardiovascular health and enhances skin health."
+  }
+]

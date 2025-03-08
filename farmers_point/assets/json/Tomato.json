@@ -1,0 +1,292 @@
+{
+  "plant_name": "Tomato",
+  "scientific_name": "Solanum lycopersicum",
+  "description": "Tomato is a popular fruit (often treated as a vegetable) grown widely in India. Rich in vitamins A, C, K, and potassium, it's used in culinary dishes like curries, sauces, and salads.",
+  "uses": [
+    "Curries",
+    "Salads",
+    "Sauces",
+    "Tomato paste",
+    "Ketchup",
+    "Canned tomatoes"
+  ],
+  "climate": {
+    "temperature": {
+      "optimal_range": "20°C to 30°C",
+      "too_low": "Below 10°C",
+      "too_high": "Above 35°C"
+    },
+    "humidity": {
+      "optimal_range": "50% to 80%"
+    },
+    "soil": {
+      "type": "Well-drained, loamy soil with organic matter",
+      "pH_range": "6.0 to 6.8"
+    },
+    "watering": "Water regularly at the base of the plant. Avoid water logging and overhead watering."
+  },
+  "diseases": [
+    {
+      "disease_name": "Tomato Bacterial Spot",
+      "scientific_name": "Xanthomonas campestris",
+      "symptoms": [
+        "Small, dark, water-soaked spots on leaves and fruit that may merge to form larger lesions",
+        "Leaf yellowing and eventual defoliation, reducing photosynthesis",
+        "Scabby lesions on fruit affecting its quality and marketability"
+      ],
+      "background": {
+        "cause": "Bacterial infection by *Xanthomonas campestris*, which enters through natural openings or wounds.",
+        "spread_by": "Contaminated seeds, soil, water, rain splash, overhead irrigation, and human contact."
+      },
+      "cure": [
+        "Use copper-based bactericides to reduce disease severity, but complete elimination is not possible.",
+        "Prune affected leaves and branches to limit bacterial spread.",
+        "Sterilize garden tools regularly to prevent spreading bacteria from one plant to another.",
+        "Apply bactericides early in the morning or late evening to avoid sun damage to plants.",
+        "Remove severely infected plants to prevent the disease from spreading to healthy plants."
+      ],
+      "fertilizers": "Apply phosphorus-rich fertilizers to support root growth and fruit development.",
+      "prevention": [
+        "Use certified disease-free seeds to avoid initial infection.",
+        "Avoid overhead irrigation to prevent water splashing, which can spread the bacteria.",
+        "Rotate crops every 3 years to break the bacterial lifecycle in the soil.",
+        "Plant resistant varieties if available for your region.",
+        "Improve garden hygiene by removing plant debris and weeds that can harbor bacteria.",
+        "Install drip irrigation systems to water plants at their base, reducing leaf moisture."
+      ]
+    },
+    {
+      "disease_name": "Tomato Early Blight",
+      "scientific_name": "Alternaria solani",
+      "symptoms": [
+        "Dark concentric rings on older leaves, often surrounded by a yellow halo",
+        "Yellowing of leaves around the spots, leading to defoliation",
+        "Fruit rot and defoliation affecting plant health and yield"
+      ],
+      "background": {
+        "cause": "Fungal pathogen *Alternaria solani*, which thrives in warm, humid conditions.",
+        "spread_by": "Contaminated soil or plant debris, wind, and rain."
+      },
+      "cure": [
+        "Remove and destroy infected plants to limit the spread of the fungus.",
+        "Apply fungicides such as Mancozeb or Chlorothalonil as soon as symptoms appear.",
+        "Use organic fungicide sprays such as neem oil for early infections.",
+        "Water plants at the base and avoid wetting the foliage to limit fungal growth.",
+        "Fungicides should be reapplied after rainfall for effective control."
+      ],
+      "fertilizers": "Use balanced fertilizers with nitrogen, phosphorus, and potassium (NPK) ratios like 10-10-10 or 12-24-12.",
+      "prevention": [
+        "Space plants adequately to ensure good air circulation and reduce humidity.",
+        "Water plants early in the day to allow leaves to dry before nightfall.",
+        "Apply mulch around the base of plants to prevent soil-borne fungal spores from splashing onto leaves.",
+        "Remove weeds and other debris where fungi can thrive.",
+        "Use disease-resistant tomato varieties if available.",
+        "Monitor plants regularly and remove any infected leaves as soon as symptoms are noticed."
+      ]
+    },
+    {
+      "disease_name": "Tomato Late Blight",
+      "scientific_name": "Phytophthora infestans",
+      "symptoms": [
+        "Dark, water-soaked spots on leaves, stems, and fruits, often leading to rapid collapse.",
+        "White, fungal growth under leaves in humid conditions.",
+        "Plant collapse and rapid deterioration of health."
+      ],
+      "background": {
+        "cause": "Fungus-like pathogen *Phytophthora infestans*, which thrives in cool, wet weather.",
+        "spread_by": "Wind, water, and infected plants."
+      },
+      "cure": [
+        "Apply systemic fungicides such as Metalaxyl or Mancozeb at the first signs of infection.",
+        "Remove and destroy infected plants immediately to stop the disease from spreading.",
+        "Use fungicidal sprays regularly during cool and wet periods to prevent new infections.",
+        "Disinfect gardening tools and equipment after working with infected plants.",
+        "Dispose of plant debris far from your garden to avoid fungal spread."
+      ],
+      "fertilizers": "Use potassium-rich fertilizers to enhance plant immunity and strengthen plant tissues.",
+      "prevention": [
+        "Use tomato varieties bred for late blight resistance.",
+        "Ensure good air circulation by properly spacing plants and pruning excess foliage.",
+        "Avoid planting tomatoes in areas with poor drainage to prevent water buildup.",
+        "Rotate crops yearly and avoid planting tomatoes or potatoes in the same spot consecutively.",
+        "Monitor weather conditions and apply preventative fungicide sprays during cool, wet periods.",
+        "Water plants early in the day to reduce moisture levels on leaves."
+      ]
+    },
+    {
+      "disease_name": "Tomato Leaf Mold",
+      "scientific_name": "Passalora fulva",
+      "symptoms": [
+        "Yellow patches on the upper leaf surface.",
+        "Olive-green mold growth on the undersides of leaves.",
+        "Leaf drop and reduced fruit yield due to compromised plant health."
+      ],
+      "background": {
+        "cause": "Fungal pathogen *Passalora fulva*, common in humid, warm conditions.",
+        "spread_by": "Infected seeds, contaminated soil, and high humidity."
+      },
+      "cure": [
+        "Apply fungicides like Difenoconazole or other broad-spectrum fungicides.",
+        "Ventilate greenhouses to reduce humidity and prevent mold growth.",
+        "Prune affected leaves and branches and dispose of them far from the garden area.",
+        "Ensure proper drying of plants after watering to minimize moisture on leaves.",
+        "Monitor and treat with fungicides regularly during humid conditions."
+      ],
+      "fertilizers": "Use balanced NPK fertilizers and avoid excessive nitrogen to prevent plant weakness.",
+      "prevention": [
+        "Improve air circulation around plants by thinning and spacing plants properly.",
+        "Water plants early in the morning to allow leaves to dry during the day.",
+        "Use disease-free seeds to prevent initial infection.",
+        "Keep humidity levels low, especially in greenhouses, by increasing ventilation.",
+        "Rotate crops and avoid planting tomatoes in the same area year after year."
+      ]
+    },
+    {
+      "disease_name": "Septoria Leaf Spot",
+      "scientific_name": "Septoria lycopersici",
+      "symptoms": [
+        "Small, circular spots with gray or tan centers and dark edges, primarily on lower leaves.",
+        "Yellowing and premature defoliation of affected leaves."
+      ],
+      "background": {
+        "cause": "Fungal disease caused by *Septoria lycopersici*, prevalent in wet and humid conditions.",
+        "spread_by": "Water splashing from infected soil onto leaves."
+      },
+      "cure": [
+        "Apply fungicides such as Chlorothalonil, Copper fungicide, or Bacillus-based products.",
+        "Remove infected leaves and destroy them to prevent further spread.",
+        "Apply fungicides as a preventative measure during wet conditions.",
+        "Ensure plants are well-ventilated and avoid working in wet conditions to prevent fungal spread."
+      ],
+      "fertilizers": "Apply well-balanced fertilizers that provide adequate nitrogen, phosphorus, and potassium.",
+      "prevention": [
+        "Rotate crops and avoid planting tomatoes in the same soil for at least 2 years.",
+        "Avoid overhead watering to minimize water splashing onto the leaves.",
+        "Apply mulch around the base of plants to prevent soil-borne spores from reaching the foliage.",
+        "Use disease-resistant varieties if available.",
+        "Space plants adequately to allow for good airflow and reduce humidity levels.",
+        "Monitor for early signs of infection and remove infected leaves promptly."
+      ]
+    },
+    {
+      "disease_name": "Tomato Target Spot",
+      "scientific_name": "Corynespora cassiicola",
+      "symptoms": [
+        "Brown spots with a yellow halo on leaves.",
+        "Stem lesions and leaf drop.",
+        "Fruit lesions that lead to fruit rot and decreased yield."
+      ],
+      "background": {
+        "cause": "Fungal pathogen *Corynespora cassiicola*, which thrives in warm, moist climates.",
+        "spread_by": "Infected plant debris, soil, and seeds."
+      },
+      "cure": [
+        "Apply fungicides such as Mancozeb or Copper Oxychloride.",
+        "Prune and remove infected plant parts to reduce disease pressure.",
+        "Apply organic fungicides like sulfur-based sprays or neem oil for early control.",
+        "Avoid overhead watering and irrigate at the base to keep leaves dry.",
+        "Remove severely infected plants to prevent spread to healthy plants."
+      ],
+      "fertilizers": "Use balanced NPK fertilizers to support overall plant health and immunity.",
+      "prevention": [
+        "Remove and dispose of infected plant debris away from the garden area.",
+        "Practice crop rotation by avoiding planting tomatoes in the same soil year after year.",
+        "Apply mulch to reduce soil splashing, which can spread fungal spores.",
+        "Water plants early in the day to reduce humidity and allow leaves to dry before nightfall."
+      ]
+    },
+    {
+      "disease_name": "Tomato Yellow Leaf Curl Virus",
+      "scientific_name": "TYLCV",
+      "symptoms": [
+        "Yellowing and curling of leaves.",
+        "Stunted plant growth.",
+        "Reduced fruit size and yield."
+      ],
+      "background": {
+        "cause": "Viral infection transmitted by whiteflies.",
+        "spread_by": "Whiteflies and infected plants."
+      },
+      "cure": [
+        "There is no cure for TYLCV once plants are infected.",
+        "Use insecticides like neem oil or insecticidal soaps to reduce whitefly populations.",
+        "Apply reflective mulches to deter whiteflies from landing on plants.",
+        "Remove infected plants promptly to prevent further viral spread.",
+        "Use insect-proof netting to exclude whiteflies from greenhouse settings."
+      ],
+      "fertilizers": "Use balanced fertilizers and neem-based products to help control insects.",
+      "prevention": [
+        "Use virus-resistant tomato varieties when available.",
+        "Control whitefly populations by introducing natural predators like ladybugs.",
+        "Use insect netting or row covers to prevent whiteflies from accessing plants.",
+        "Remove and destroy infected plants as soon as symptoms appear to prevent spread.",
+        "Rotate crops to avoid virus buildup in the soil."
+      ]
+    },
+    {
+      "disease_name": "Tomato Mosaic Virus",
+      "scientific_name": "ToMV",
+      "symptoms": [
+        "Mosaic pattern on leaves with light and dark green patches.",
+        "Stunted plant growth and reduced vigor.",
+        "Malformed and reduced fruit size."
+      ],
+      "background": {
+        "cause": "Viral infection spread through contaminated tools or soil.",
+        "spread_by": "Insects like aphids and contact with infected plants."
+      },
+      "cure": [
+        "There is no cure for Tomato Mosaic Virus once a plant is infected.",
+        "Remove and destroy infected plants to limit the virus's spread.",
+        "Disinfect tools and equipment between uses to prevent further contamination.",
+        "Control aphid populations with insecticides or natural predators to reduce virus spread.",
+        "Use disease-resistant varieties to reduce the risk of infection."
+      ],
+      "fertilizers": "Avoid excessive nitrogen to prevent weakening plant immunity.",
+      "prevention": [
+        "Disinfect tools regularly and avoid handling plants when they are wet.",
+        "Use certified disease-free seeds and transplants.",
+        "Control insect populations that can spread the virus, such as aphids.",
+        "Practice crop rotation to prevent the virus from persisting in the soil.",
+        "Avoid working in the garden when plants are wet to minimize virus transmission."
+      ]
+    },
+    {
+      "disease_name": "Two-spotted Spider Mite",
+      "scientific_name": "Tetranychus urticae",
+      "symptoms": [
+        "Tiny white or yellow spots on leaves caused by mite feeding.",
+        "Webbing on the underside of leaves.",
+        "Leaf drop and overall plant weakening due to mite infestation."
+      ],
+      "background": {
+        "cause": "Spider mites thrive in hot, dry conditions.",
+        "spread_by": "Wind or through infected plants."
+      },
+      "cure": [
+        "Use neem oil, miticides, or insecticidal soap to control mite populations.",
+        "Apply a strong stream of water to dislodge mites from plants.",
+        "Introduce beneficial predatory mites or ladybugs to naturally control the mite population.",
+        "Repeat treatments weekly for severe infestations.",
+        "Remove and destroy heavily infested plants to limit the spread."
+      ],
+      "fertilizers": "Use nitrogen fertilizers in moderate amounts; excessive nitrogen can exacerbate mite problems.",
+      "prevention": [
+        "Regularly monitor plants for early signs of mite infestation, especially during hot, dry weather.",
+        "Keep plants well-watered and maintain adequate humidity levels to discourage mites.",
+        "Introduce beneficial insects like ladybugs to help control mite populations.",
+        "Ensure proper plant spacing to improve air circulation and reduce hot spots where mites thrive.",
+        "Avoid excessive nitrogen fertilization, as it can promote mite reproduction."
+      ]
+    }
+  ],
+  "preventive_practices": [
+    "Use disease-free seeds and resistant plant varieties",
+    "Practice crop rotation to prevent soil-borne diseases",
+    "Use drip irrigation to reduce water contact with leaves",
+    "Mulch around plants to conserve moisture and reduce soil splashing",
+    "Space plants for good air circulation",
+    "Regularly monitor plants for pests and diseases",
+    "Use neem oil or organic insecticides to control insect populations"
+  ]
+}

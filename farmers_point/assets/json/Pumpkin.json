@@ -1,0 +1,145 @@
+{
+  "plant_name": "Pumpkin",
+  "scientific_name": "Cucurbita pepo",
+  "description": "Pumpkin is a widely grown vine-like plant belonging to the gourd family, Cucurbitaceae. It produces large, round fruits that are rich in vitamins and minerals. Pumpkins are used for culinary purposes, as well as for ornamental purposes during fall festivals and holidays. The seeds are also consumed for their nutritional value.",
+  "uses": [
+    "Culinary uses in soups, pies, and curries",
+    "Pumpkin seeds for snacks and oil extraction",
+    "Decoration during harvest festivals like Halloween",
+    "Natural skin care products"
+  ],
+  "climate": {
+    "temperature": {
+      "optimal_range": "20°C to 30°C",
+      "too_low": "Below 10°C",
+      "too_high": "Above 35°C"
+    },
+    "humidity": {
+      "optimal_range": "60% to 80%"
+    },
+    "soil": {
+      "type": "Well-drained, fertile loam with good organic content",
+      "pH_range": "6.0 to 7.5"
+    },
+    "watering": "Pumpkins require consistent moisture, especially during flowering and fruiting stages. Over-watering can lead to root rot, so ensure good drainage."
+  },
+  "diseases": [
+    {
+      "disease_name": "Bacterial Leaf Spot",
+      "scientific_name": "Xanthomonas cucurbitae",
+      "symptoms": [
+        "Small, angular water-soaked lesions with yellow halos on leaves.",
+        "Brownish spots that enlarge and cause leaf wilting.",
+        "Infected plants show stunted growth and poor fruit development."
+      ],
+      "background": {
+        "cause": "Bacterial infection that thrives in warm, humid conditions.",
+        "spread_by": "Contaminated water, tools, and plant debris."
+      },
+      "cure": [
+        "Apply copper-based bactericides like Copper Hydroxide.",
+        "Remove and destroy infected plant material to reduce bacterial spread."
+      ],
+      "fertilizers": "Balanced fertilizers that promote healthy foliage growth help reduce disease impact.",
+      "prevention": [
+        "Plant disease-resistant pumpkin varieties.",
+        "Use certified, disease-free seeds.",
+        "Practice crop rotation to reduce pathogen buildup."
+      ]
+    },
+    {
+      "disease_name": "Downy Mildew",
+      "scientific_name": "Pseudoperonospora cubensis",
+      "symptoms": [
+        "Yellowing of leaves, followed by grayish, fuzzy growth on the underside.",
+        "Leaves become necrotic and die, affecting plant growth.",
+        "Infected pumpkins show stunted fruit growth and reduced yield."
+      ],
+      "background": {
+        "cause": "Fungal infection that thrives in cool, damp conditions.",
+        "spread_by": "Windborne spores and rain splash."
+      },
+      "cure": [
+        "Apply fungicides like Metalaxyl or Chlorothalonil.",
+        "Remove infected plant debris to reduce spore spread."
+      ],
+      "fertilizers": "Use fertilizers with adequate potassium and phosphorus to improve plant resistance.",
+      "prevention": [
+        "Plant resistant varieties.",
+        "Ensure proper field spacing and air circulation.",
+        "Avoid overhead watering to keep leaves dry."
+      ]
+    },
+    {
+      "disease_name": "Healthy Leaf",
+      "scientific_name": "N/A",
+      "symptoms": [
+        "Leaves are green, firm, and free from lesions or discoloration.",
+        "Healthy leaves show strong growth and resilience to diseases."
+      ],
+      "background": {
+        "cause": "Proper plant care with optimal watering, sunlight, and nutrition leads to healthy leaves.",
+        "spread_by": "N/A"
+      },
+      "cure": [
+        "Ensure balanced nutrient management and proper watering techniques."
+      ],
+      "fertilizers": "Use organic fertilizers to improve soil health and provide consistent nutrients.",
+      "prevention": [
+        "Maintain proper field hygiene and monitor plants for early disease signs.",
+        "Avoid over-fertilizing, which can lead to nutrient imbalances."
+      ]
+    },
+    {
+      "disease_name": "Mosaic Disease",
+      "scientific_name": "Cucumis mosaic virus (CMV)",
+      "symptoms": [
+        "Mottled or yellowing pattern on leaves, often with irregular green and yellow patches.",
+        "Leaf curl and distortion, with reduced fruit size and quality.",
+        "Infected plants exhibit stunted growth and low productivity."
+      ],
+      "background": {
+        "cause": "Viral infection transmitted by aphids and other insects.",
+        "spread_by": "Insect vectors like aphids and through infected seeds."
+      },
+      "cure": [
+        "There is no cure for viral infections. Remove infected plants immediately to prevent spread.",
+        "Control aphid populations through insecticide applications."
+      ],
+      "fertilizers": "Proper fertilization supports healthy growth and can help mitigate some symptoms.",
+      "prevention": [
+        "Use virus-free seeds and practice crop rotation.",
+        "Control insect vectors like aphids through pest management."
+      ]
+    },
+    {
+      "disease_name": "Powdery Mildew",
+      "scientific_name": "Erysiphe cichoracearum",
+      "symptoms": [
+        "White, powdery fungal growth on the upper side of leaves.",
+        "Yellowing of the leaves beneath the fungal growth, followed by leaf curl.",
+        "Infected plants show poor fruit development and reduced yields."
+      ],
+      "background": {
+        "cause": "Fungal disease that thrives in warm, dry conditions.",
+        "spread_by": "Windborne spores and infected plant material."
+      },
+      "cure": [
+        "Apply fungicides like Sulfur or Myclobutanil.",
+        "Remove and destroy infected plant parts to reduce fungal spread."
+      ],
+      "fertilizers": "Fertilize with balanced nutrients, focusing on potassium for better plant resistance.",
+      "prevention": [
+        "Ensure proper spacing for airflow and avoid overcrowding.",
+        "Apply preventive fungicides during early signs of disease."
+      ]
+    }
+  ],
+  "preventive_practices": [
+    "Practice crop rotation to avoid the buildup of soil-borne pathogens.",
+    "Use disease-resistant varieties to reduce the risk of infection.",
+    "Ensure proper field hygiene by removing infected plant material.",
+    "Monitor plants regularly for early signs of disease and take timely action.",
+    "Control insect vectors to prevent the spread of viral diseases."
+  ]
+}

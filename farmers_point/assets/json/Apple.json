@@ -1,0 +1,131 @@
+{
+  "plant_name": "Apple",
+  "scientific_name": "Malus domestica",
+  "description": "The apple tree is a deciduous tree in the rose family, widely grown for its edible fruit. Apples are one of the most widely consumed fruits globally, grown in temperate climates. Apples come in many varieties, including sweet, tart, and juicy types, commonly consumed fresh or used in cooking, baking, and juicing.",
+  "uses": [
+    "Fresh fruit consumption",
+    "Apple juice and cider",
+    "Baking (apple pie, cakes)",
+    "Apple sauce and jams",
+    "Medicinal uses (digestive health, antioxidants)"
+  ],
+  "climate": {
+    "temperature": {
+      "optimal_range": "15°C to 25°C",
+      "too_low": "Below 0°C",
+      "too_high": "Above 35°C"
+    },
+    "humidity": {
+      "optimal_range": "60% to 80%"
+    },
+    "soil": {
+      "type": "Well-drained, loamy soils",
+      "pH_range": "6.0 to 7.0"
+    },
+    "watering": "Apples need consistent watering, particularly during dry spells, but should not be overwatered. Overwatering can lead to root rot and fungal diseases."
+  },
+  "diseases": [
+    {
+      "disease_name": "Apple Scab",
+      "scientific_name": "Venturia inaequalis",
+      "symptoms": [
+        "Dark, olive-green to brown lesions on the leaves and fruit.",
+        "Lesions on fruit cause scabby, misshapen growth.",
+        "Yellowing of leaves, early leaf drop, and poor fruit development.",
+        "Reduced yield and poor fruit quality."
+      ],
+      "background": {
+        "cause": "A fungal disease caused by *Venturia inaequalis* that affects the leaves and fruit of apple trees.",
+        "spread_by": "Rain, wind, and contaminated plant debris."
+      },
+      "cure": [
+        "Apply fungicides such as Captan or Myclobutanil before rainy periods.",
+        "Remove fallen leaves and infected fruit to reduce pathogen spread.",
+        "Ensure proper spacing between trees to allow for good airflow."
+      ],
+      "fertilizers": "Use balanced fertilizers, especially potassium and phosphorus, to improve plant health and disease resistance.",
+      "prevention": [
+        "Apply preventive fungicide treatments in early spring before symptoms appear.",
+        "Practice crop rotation and avoid overhead watering to minimize moisture on leaves."
+      ]
+    },
+    {
+      "disease_name": "Apple Black Rot",
+      "scientific_name": "Diplodia seriata",
+      "symptoms": [
+        "Dark, sunken lesions on fruit that lead to decay.",
+        "Black streaks or lesions on branches and twigs.",
+        "Premature fruit drop and shriveling.",
+        "Lesions on leaves causing yellowing and early leaf drop."
+      ],
+      "background": {
+        "cause": "A fungal disease caused by *Diplodia seriata*, which affects the fruit, leaves, and branches of apple trees.",
+        "spread_by": "Infected plant material, wind, and rain."
+      },
+      "cure": [
+        "Prune and destroy infected branches and fruit to reduce the source of infection.",
+        "Apply fungicides like Pyraclostrobin or Trifloxystrobin to prevent further spread.",
+        "Ensure proper field sanitation by removing fallen leaves and fruit."
+      ],
+      "fertilizers": "Balanced fertilizers should be applied to maintain overall plant health and reduce stress, making trees less susceptible to infections.",
+      "prevention": [
+        "Ensure proper spacing to promote good air circulation around trees.",
+        "Monitor trees for early signs of infection and apply fungicides as a preventive measure.",
+        "Remove any dead or infected wood promptly."
+      ]
+    },
+    {
+      "disease_name": "Cedar Apple Rust",
+      "scientific_name": "Gymnosporangium juniper-virginianae",
+      "symptoms": [
+        "Yellow-orange spots on the upper surface of leaves.",
+        "Bright orange or red fungal growth on the undersides of leaves.",
+        "Deformed fruit and stunted growth.",
+        "In severe cases, defoliation and reduced fruit production."
+      ],
+      "background": {
+        "cause": "A fungal disease caused by *Gymnosporangium juniper-virginianae*, which requires both apple and cedar trees to complete its life cycle.",
+        "spread_by": "Windborne spores from juniper trees infect apple trees."
+      },
+      "cure": [
+        "Prune and remove infected branches to reduce pathogen spread.",
+        "Apply fungicides such as Mancozeb or Thiophanate Methyl during wet conditions.",
+        "Remove juniper trees or keep them at a distance from apple trees to break the disease cycle."
+      ],
+      "fertilizers": "Apply balanced fertilizers to support plant health, especially during the growing season to reduce stress and increase disease resistance.",
+      "prevention": [
+        "Avoid planting apple trees near juniper trees.",
+        "Remove fallen leaves and infected fruit to reduce the spread of spores.",
+        "Apply fungicides preventively during the spring and early summer."
+      ]
+    },
+    {
+      "disease_name": "Apple Healthy",
+      "scientific_name": "N/A",
+      "symptoms": [
+        "Healthy, vibrant green leaves with no visible lesions.",
+        "Well-formed, firm fruit with a smooth, unblemished surface.",
+        "Strong growth and good flowering."
+      ],
+      "background": {
+        "cause": "The apple tree is free from diseases and pests, exhibiting healthy growth and fruit production.",
+        "spread_by": "N/A"
+      },
+      "cure": [
+        "Ensure regular maintenance, including pruning, irrigation, and pest control to keep the tree healthy."
+      ],
+      "fertilizers": "Apply balanced fertilizers during the growing season for optimal growth and fruit production.",
+      "prevention": [
+        "Regularly monitor the plant for pests and diseases.",
+        "Implement good agricultural practices such as proper irrigation, pruning, and spacing."
+      ]
+    }
+  ],
+  "preventive_practices": [
+    "Regularly inspect trees for early signs of diseases and apply fungicides as needed.",
+    "Prune infected branches and remove fallen fruit and leaves to minimize pathogen spread.",
+    "Ensure proper air circulation around trees by spacing them adequately and avoiding overcrowding.",
+    "Apply fungicides preventively during rainy seasons to reduce the risk of fungal infections.",
+    "Maintain good field hygiene, including cleaning tools and equipment to prevent disease transmission."
+  ]
+}

@@ -1,0 +1,183 @@
+[
+    {
+      "soil_name": "Alluvial Soil",
+      "description": "Alluvial soil is a rich, fertile soil found in river valleys and floodplains. It is formed by the deposition of fine particles such as sand, silt, and clay carried by water. This soil type is highly fertile and suitable for growing a wide variety of crops.",
+      "key_characteristics": {
+        "texture": "Loamy to sandy",
+        "color": "Light brown to dark brown",
+        "drainage": "Well-drained",
+        "pH_range": "6.5 to 7.5",
+        "organic_matter": "High"
+      },
+      "plants_that_can_grow_well": [
+        "Rice",
+        "Wheat",
+        "Sugarcane",
+        "Cotton",
+        "Maize"
+      ],
+      "best_for": [
+        "Paddy fields",
+        "Cereal crops",
+        "Vegetables"
+      ],
+      "watering_requirements": "Moderate to high water needs, particularly during the growing season."
+    },
+    {
+      "soil_name": "Black Soil",
+      "description": "Black soil, also known as Regur soil, is rich in clay content and is highly fertile, making it suitable for the cultivation of a variety of crops. It is found in regions with tropical and subtropical climates and is well-known for its moisture-retaining properties.",
+      "key_characteristics": {
+        "texture": "Clayey",
+        "color": "Black to dark brown",
+        "drainage": "Poor to moderate",
+        "pH_range": "7.0 to 8.0",
+        "organic_matter": "High"
+      },
+      "plants_that_can_grow_well": [
+        "Cotton",
+        "Groundnut",
+        "Soybean",
+        "Sugarcane",
+        "Chili"
+      ],
+      "best_for": [
+        "Drought-resistant crops",
+        "Cash crops like cotton and groundnut"
+      ],
+      "watering_requirements": "Needs regular watering, but excessive water can lead to waterlogging."
+    },
+    {
+      "soil_name": "Cinder Soil",
+      "description": "Cinder soil is volcanic in origin, composed of small, sharp particles produced from the eruption of volcanoes. It is typically found in volcanic regions and is rich in minerals but lacks organic matter, making it challenging for plant growth without proper amendments.",
+      "key_characteristics": {
+        "texture": "Gravelly, rocky",
+        "color": "Dark grey to black",
+        "drainage": "Excellent",
+        "pH_range": "5.5 to 7.0",
+        "organic_matter": "Low"
+      },
+      "plants_that_can_grow_well": [
+        "Succulent plants",
+        "Cacti",
+        "Lavender",
+        "Olives"
+      ],
+      "best_for": [
+        "Plants that thrive in dry, rocky conditions",
+        "Drought-tolerant plants"
+      ],
+      "watering_requirements": "Low to moderate watering needs."
+    },
+    {
+      "soil_name": "Clay Soil",
+      "description": "Clay soil consists of fine particles that retain moisture but have poor drainage. It is heavy and compact, which can make it difficult to work with, but it is rich in nutrients and can be very fertile with proper management.",
+      "key_characteristics": {
+        "texture": "Clayey",
+        "color": "Red, brown, or grey",
+        "drainage": "Poor",
+        "pH_range": "5.5 to 7.0",
+        "organic_matter": "High"
+      },
+      "plants_that_can_grow_well": [
+        "Beans",
+        "Cabbage",
+        "Potatoes",
+        "Lettuce",
+        "Onions"
+      ],
+      "best_for": [
+        "Vegetable gardens",
+        "Heavy feeder plants"
+      ],
+      "watering_requirements": "Requires careful watering to avoid waterlogging."
+    },
+    {
+      "soil_name": "Laterite Soil",
+      "description": "Laterite soil is rich in iron and aluminum, often found in tropical regions. It is acidic and porous, making it well-drained but nutrient-deficient. It requires soil amendments to support agricultural crops.",
+      "key_characteristics": {
+        "texture": "Sandy to clayey",
+        "color": "Red to yellowish",
+        "drainage": "Well-drained",
+        "pH_range": "4.5 to 6.5",
+        "organic_matter": "Low to moderate"
+      },
+      "plants_that_can_grow_well": [
+        "Tea",
+        "Coffee",
+        "Cashew",
+        "Rubber"
+      ],
+      "best_for": [
+        "Tropical crops",
+        "Fruit trees"
+      ],
+      "watering_requirements": "Moderate watering needs, especially in dry periods."
+    },
+    {
+      "soil_name": "Peat Soil",
+      "description": "Peat soil is formed from the accumulation of organic material in waterlogged areas, resulting in high moisture retention and rich organic content. It is often acidic and requires proper drainage to prevent plant root rot.",
+      "key_characteristics": {
+        "texture": "Loose, spongy",
+        "color": "Dark brown to black",
+        "drainage": "Poor to moderate",
+        "pH_range": "3.5 to 5.5",
+        "organic_matter": "Very high"
+      },
+      "plants_that_can_grow_well": [
+        "Cranberries",
+        "Blueberries",
+        "Water lilies",
+        "Sphagnum moss"
+      ],
+      "best_for": [
+        "Acid-loving plants",
+        "Waterlogged environments"
+      ],
+      "watering_requirements": "Low watering requirements, but soil must remain moist."
+    },
+    {
+      "soil_name": "Red Soil",
+      "description": "Red soil is typically found in tropical and subtropical regions, and its red color comes from the high iron content. It is moderately fertile, well-drained, and suitable for various crops when properly managed with fertilizers.",
+      "key_characteristics": {
+        "texture": "Loamy to sandy",
+        "color": "Red",
+        "drainage": "Good",
+        "pH_range": "6.0 to 7.5",
+        "organic_matter": "Moderate"
+      },
+      "plants_that_can_grow_well": [
+        "Tomato",
+        "Beans",
+        "Tobacco",
+        "Maize",
+        "Chili"
+      ],
+      "best_for": [
+        "Fruit and vegetable crops",
+        "Cereals"
+      ],
+      "watering_requirements": "Moderate water requirements."
+    },
+    {
+      "soil_name": "Yellow Soil",
+      "description": "Yellow soil is found in regions with high rainfall and is rich in clay and iron. It is slightly acidic and suitable for growing a variety of crops, although it may require soil amendments to improve fertility.",
+      "key_characteristics": {
+        "texture": "Clayey to loamy",
+        "color": "Yellow to brown",
+        "drainage": "Moderate",
+        "pH_range": "5.5 to 6.5",
+        "organic_matter": "Moderate"
+      },
+      "plants_that_can_grow_well": [
+        "Rice",
+        "Barley",
+        "Cotton",
+        "Maize"
+      ],
+      "best_for": [
+        "Rice paddies",
+        "Cereal crops"
+      ],
+      "watering_requirements": "Moderate to high water needs, especially during germination."
+    }
+]

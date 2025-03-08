@@ -1,0 +1,111 @@
+{
+  "plant_name": "Cotton",
+  "scientific_name": "Gossypium spp.",
+  "description": "Cotton is a soft, fluffy staple fiber that grows in a boll around the seeds of the cotton plants, primarily of the genus Gossypium. It is a major crop used for textile production worldwide, especially in tropical and subtropical regions.",
+  "uses": [
+    "Textile industry (clothing, linens, etc.)",
+    "Medical supplies (cotton swabs, bandages)",
+    "Oil extraction from cottonseed",
+    "Animal feed from cottonseed meal",
+    "Biofuel"
+  ],
+  "climate": {
+    "temperature": {
+      "optimal_range": "21°C to 37°C",
+      "too_low": "Below 12°C",
+      "too_high": "Above 42°C"
+    },
+    "humidity": {
+      "optimal_range": "50% to 70%"
+    },
+    "soil": {
+      "type": "Well-drained, loamy soil with organic matter",
+      "pH_range": "5.8 to 8.0"
+    },
+    "watering": "Cotton requires moderate watering, with sufficient moisture during flowering and boll formation stages."
+  },
+  "diseases": [
+    {
+      "disease_name": "Cotton Bacterial Blight",
+      "scientific_name": "Xanthomonas axonopodis pv. malvacearum",
+      "symptoms": [
+        "Small, water-soaked spots on leaves, which enlarge and turn brown.",
+        "Lesions on stems and bolls, which can lead to boll rot and reduced yield.",
+        "Leaf curling and dropping due to severe infection."
+      ],
+      "background": {
+        "cause": "Bacterial infection by *Xanthomonas axonopodis pv. malvacearum*.",
+        "spread_by": "Infected seeds, rain splash, wind, and contaminated farm equipment."
+      },
+      "cure": [
+        "Use copper-based bactericides as a control measure.",
+        "Remove and destroy infected plant debris after harvest.",
+        "Apply bactericides early to limit disease spread."
+      ],
+      "fertilizers": "Apply balanced NPK fertilizers to enhance plant resistance to infections.",
+      "prevention": [
+        "Plant resistant cotton varieties where available.",
+        "Use certified, disease-free seeds.",
+        "Practice crop rotation with non-host crops to prevent bacterial buildup in soil.",
+        "Avoid overhead watering to reduce moisture on leaves."
+      ]
+    },
+    {
+      "disease_name": "Cotton Curl Virus",
+      "scientific_name": "Cotton Leaf Curl Virus (CLCuV)",
+      "symptoms": [
+        "Upward leaf curling with vein swelling and thickening.",
+        "Reduced leaf size, stunted growth, and low yield.",
+        "Formation of enations (small, wart-like growths) on the underside of leaves."
+      ],
+      "background": {
+        "cause": "Viral infection caused by *Cotton Leaf Curl Virus* (CLCuV).",
+        "spread_by": "Whiteflies (Bemisia tabaci) transmitting the virus from infected plants."
+      },
+      "cure": [
+        "There is no cure for infected plants; infected plants should be removed to prevent virus spread.",
+        "Use insecticides such as neem oil or insecticidal soap to control whitefly populations.",
+        "Introduce natural predators like ladybugs to control whiteflies."
+      ],
+      "fertilizers": "Use phosphorus-rich fertilizers to support root health and plant vigor.",
+      "prevention": [
+        "Plant virus-resistant cotton varieties.",
+        "Use reflective mulches to deter whiteflies.",
+        "Remove infected plants promptly and dispose of them properly.",
+        "Install insect netting around plants to reduce whitefly access."
+      ]
+    },
+    {
+      "disease_name": "Cotton Fusarium Wilt",
+      "scientific_name": "Fusarium oxysporum f.sp. vasinfectum",
+      "symptoms": [
+        "Yellowing and wilting of lower leaves, progressing upward.",
+        "Brown discoloration of vascular tissue in stems and roots.",
+        "Stunted growth, poor boll formation, and yield loss."
+      ],
+      "background": {
+        "cause": "Soil-borne fungal pathogen *Fusarium oxysporum f.sp. vasinfectum*.",
+        "spread_by": "Infected soil, contaminated equipment, and movement of soil by water or wind."
+      },
+      "cure": [
+        "There is no direct cure; focus on managing soil health and removing infected plants.",
+        "Apply fungicides like Trichoderma spp. as a biological control to reduce pathogen levels in soil.",
+        "Enhance soil drainage to prevent fungal growth in waterlogged soil."
+      ],
+      "fertilizers": "Use balanced fertilizers that avoid excess nitrogen, which can exacerbate disease severity.",
+      "prevention": [
+        "Plant resistant varieties where available.",
+        "Rotate with non-susceptible crops to reduce fungal populations in the soil.",
+        "Practice deep plowing and crop rotation to disrupt the fungal lifecycle.",
+        "Disinfect tools and avoid working in wet fields to prevent spread."
+      ]
+    }
+  ],
+  "preventive_practices": [
+    "Use disease-resistant cotton varieties where available.",
+    "Practice crop rotation with non-host crops to reduce soil-borne pathogens.",
+    "Employ drip irrigation systems to minimize water contact on leaves.",
+    "Regularly monitor for pest and disease signs to manage early.",
+    "Apply organic insecticides like neem oil to control insect vectors."
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "plant_name": "Rice",
+  "scientific_name": "Oryza sativa",
+  "description": "Rice is one of the most important staple crops worldwide, primarily grown for its edible grain. It is a versatile crop that adapts to various climates and is cultivated extensively in flooded fields or paddies. Rice serves as a primary source of calories for billions of people, especially in Asia and Africa.",
+  "uses": [
+    "Staple food for billions of people",
+    "Rice bran oil production",
+    "Animal feed (rice husk and bran)",
+    "Brewing alcoholic beverages like sake",
+    "Making rice-based snacks and desserts"
+  ],
+  "climate": {
+    "temperature": {
+      "optimal_range": "20°C to 35°C",
+      "too_low": "Below 15°C",
+      "too_high": "Above 40°C"
+    },
+    "humidity": {
+      "optimal_range": "70% to 90%"
+    },
+    "soil": {
+      "type": "Clayey, loamy soils with good water retention",
+      "pH_range": "5.5 to 7.5"
+    },
+    "watering": "Rice requires consistent water supply and is often grown in flooded conditions during its growing period. Proper drainage is essential during the ripening stage to prevent diseases."
+  },
+  "diseases": [
+    {
+      "disease_name": "Rice Bacterial Blight",
+      "scientific_name": "Xanthomonas oryzae pv. oryzae",
+      "symptoms": [
+        "Yellowing of leaf margins that progresses to browning and wilting.",
+        "Water-soaked lesions that enlarge and merge, causing leaf death.",
+        "Stunted plant growth and reduced grain yield."
+      ],
+      "background": {
+        "cause": "Bacterial infection spread through contaminated water, soil, and seeds.",
+        "spread_by": "Irrigation water, wind, and infected plant debris."
+      },
+      "cure": [
+        "Use copper-based bactericides or streptomycin to control the disease.",
+        "Remove and destroy infected plants to limit disease spread."
+      ],
+      "fertilizers": "Avoid excessive nitrogen application, which promotes lush growth and susceptibility.",
+      "prevention": [
+        "Plant resistant rice varieties.",
+        "Use certified, disease-free seeds.",
+        "Ensure proper drainage to reduce water stagnation."
+      ]
+    },
+    {
+      "disease_name": "Rice Brown Spot",
+      "scientific_name": "Bipolaris oryzae",
+      "symptoms": [
+        "Small, circular brown spots with a gray center on leaves.",
+        "Severe infections result in leaf blighting and yellowing.",
+        "Reduced grain filling and poor-quality grains."
+      ],
+      "background": {
+        "cause": "A fungal disease favored by nutrient deficiencies, particularly potassium.",
+        "spread_by": "Windborne spores, infected seeds, and plant debris."
+      },
+      "cure": [
+        "Apply fungicides like Mancozeb or Carbendazim.",
+        "Supplement potassium fertilizers to improve plant health."
+      ],
+      "fertilizers": "Balanced fertilizers with potassium and silicon reduce disease severity.",
+      "prevention": [
+        "Plant resistant varieties.",
+        "Avoid water stress and maintain proper irrigation schedules.",
+        "Treat seeds with fungicides before sowing."
+      ]
+    },
+    {
+      "disease_name": "Rice Leaf Blast",
+      "scientific_name": "Magnaporthe oryzae",
+      "symptoms": [
+        "Gray to whitish spots with dark margins on leaves.",
+        "Lesions on stems and nodes, leading to plant breakage.",
+        "Premature drying of leaf tips and reduced grain formation."
+      ],
+      "background": {
+        "cause": "A fungal disease spread by airborne spores in warm, humid conditions.",
+        "spread_by": "Infected plant debris and wind."
+      },
+      "cure": [
+        "Apply systemic fungicides like Tricyclazole or Carbendazim.",
+        "Remove infected plant debris."
+      ],
+      "fertilizers": "Avoid excessive nitrogen application.",
+      "prevention": [
+        "Plant resistant varieties.",
+        "Ensure proper spacing for better air circulation.",
+        "Apply preventive fungicides during favorable conditions."
+      ]
+    },
+    {
+      "disease_name": "Rice Leaf Scald",
+      "scientific_name": "Microdochium oryzae",
+      "symptoms": [
+        "Brown lesions with yellowish halos, spreading from leaf tips and margins.",
+        "Infected leaves dry out and exhibit a scorched appearance.",
+        "Reduced photosynthesis and grain yield."
+      ],
+      "background": {
+        "cause": "A fungal disease spread by water splash and infected plant debris.",
+        "spread_by": "Contaminated irrigation water and rain."
+      },
+      "cure": [
+        "Apply fungicides like Propiconazole.",
+        "Remove infected plant debris and improve field hygiene."
+      ],
+      "fertilizers": "Balanced nutrients with adequate potassium reduce susceptibility.",
+      "prevention": [
+        "Plant resistant varieties.",
+        "Maintain proper field drainage to avoid prolonged leaf wetness."
+      ]
+    },
+    {
+      "disease_name": "Narrow Brown Leaf Spot",
+      "scientific_name": "Cercospora janseana",
+      "symptoms": [
+        "Long, narrow, reddish-brown lesions on leaves.",
+        "Severe infections cause leaves to wither prematurely.",
+        "Reduced plant vigor and grain yield."
+      ],
+      "background": {
+        "cause": "A fungal disease associated with nutrient-deficient soils.",
+        "spread_by": "Windborne spores and plant debris."
+      },
+      "cure": [
+        "Apply fungicides like Mancozeb.",
+        "Remove infected leaves and plant debris."
+      ],
+      "fertilizers": "Ensure adequate potassium and nitrogen supply.",
+      "prevention": [
+        "Plant resistant varieties.",
+        "Practice crop rotation to reduce pathogen pressure."
+      ]
+    },
+    {
+      "disease_name": "Rice Hispa",
+      "scientific_name": "Dicladispa armigera",
+      "symptoms": [
+        "White streaks or scratches on leaves due to feeding.",
+        "Leaves become skeletonized, and plant growth is stunted.",
+        "Reduced tillering and grain yield."
+      ],
+      "background": {
+        "cause": "Insect pest infestation by larvae and adults of *Dicladispa armigera*.",
+        "spread_by": "Movement of adult insects between fields."
+      },
+      "cure": [
+        "Apply insecticides like Chlorpyrifos or Lambda-cyhalothrin.",
+        "Manually remove adults and larvae in small infestations."
+      ],
+      "fertilizers": "Balanced nutrient application improves plant recovery.",
+      "prevention": [
+        "Plant early to avoid peak pest activity.",
+        "Use resistant varieties and ensure good field sanitation."
+      ]
+    },
+    {
+      "disease_name": "Rice Sheath Blight",
+      "scientific_name": "Rhizoctonia solani",
+      "symptoms": [
+        "Irregular, grayish-green or brown lesions on the leaf sheath.",
+        "Soft, rotting tissue with fungal growth at the base of plants.",
+        "Yellowing and wilting of leaves."
+      ],
+      "background": {
+        "cause": "A fungal disease caused by *Rhizoctonia solani*, common in poorly drained fields.",
+        "spread_by": "Infected plant residues and soil."
+      },
+      "cure": [
+        "Apply fungicides like Azoxystrobin.",
+        "Improve field drainage."
+      ],
+      "fertilizers": "Apply balanced fertilizers, especially potassium.",
+      "prevention": [
+        "Avoid planting at high densities.",
+        "Practice crop rotation and field sanitation."
+      ]
+    }
+  ],
+  "preventive_practices": [
+    "Use disease-resistant rice varieties to reduce vulnerability.",
+    "Ensure proper field hygiene by removing debris and practicing crop rotation.",
+    "Monitor crops for early disease signs and take timely action.",
+    "Maintain optimal water and nutrient management."
+  ]
+}

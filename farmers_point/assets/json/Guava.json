@@ -1,0 +1,144 @@
+{
+  "plant_name": "Guava",
+  "scientific_name": "Psidium guajava",
+  "description": "Guava is a tropical fruit known for its sweet, tangy flavor and high vitamin C content. It is widely cultivated in tropical and subtropical regions. Guava trees are hardy and adaptable, with a preference for well-drained soils and warm climates.",
+  "uses": [
+    "Fresh consumption",
+    "Juices",
+    "Jams and jellies",
+    "Desserts",
+    "Medicinal purposes"
+  ],
+  "climate": {
+    "temperature": {
+      "optimal_range": "20°C to 30°C",
+      "too_low": "Below 10°C",
+      "too_high": "Above 35°C"
+    },
+    "humidity": {
+      "optimal_range": "50% to 70%"
+    },
+    "soil": {
+      "type": "Well-drained loamy soil with organic matter",
+      "pH_range": "6.0 to 7.0"
+    },
+    "watering": "Water regularly, but avoid waterlogging. Ensure the soil is moist but well-drained, especially during the fruiting stage."
+  },
+  "diseases": [
+    {
+      "disease_name": "Guava Phytophthora",
+      "scientific_name": "Phytophthora spp.",
+      "symptoms": [
+        "Yellowing of leaves, followed by wilting and defoliation.",
+        "Dark, water-soaked lesions at the base of stems and roots.",
+        "Stunted growth and dieback of young shoots.",
+        "Foul smell from rotting roots in severe cases."
+      ],
+      "background": {
+        "cause": "Fungal disease caused by *Phytophthora* species, which thrive in waterlogged or poorly drained soils.",
+        "spread_by": "Water, contaminated soil, and plant material."
+      },
+      "cure": [
+        "Apply fungicides like Metalaxyl or Fosetyl-Al to control the spread of the disease.",
+        "Improve drainage around the root zone to prevent waterlogging.",
+        "Prune infected parts of the plant and dispose of them properly.",
+        "Avoid over-irrigating and maintain good soil drainage to reduce favorable conditions for the fungus."
+      ],
+      "fertilizers": "Use phosphorus and potassium-rich fertilizers to help strengthen plant defenses against root rot.",
+      "prevention": [
+        "Ensure proper drainage in the soil to prevent water accumulation around roots.",
+        "Use certified disease-free seedlings to prevent initial infection.",
+        "Avoid overhead irrigation to keep the soil surface dry and reduce fungal spore dispersal.",
+        "Practice crop rotation and do not plant guavas in the same area year after year."
+      ]
+    },
+    {
+      "disease_name": "Guava Red Rust",
+      "scientific_name": "Puccinia psidii",
+      "symptoms": [
+        "Red, rust-like pustules on the underside of leaves.",
+        "Yellowing and curling of leaves, followed by defoliation.",
+        "Reduced fruit set and poor fruit quality.",
+        "Premature leaf drop, weakening the plant."
+      ],
+      "background": {
+        "cause": "Fungal disease caused by *Puccinia psidii*, which thrives in humid and warm conditions.",
+        "spread_by": "Wind, rain, and contaminated plant material."
+      },
+      "cure": [
+        "Apply fungicides such as Tebuconazole or Propiconazole to control rust infections.",
+        "Remove and destroy infected leaves and plant material to reduce fungal spread.",
+        "Prune affected branches and leaves to improve air circulation and reduce humidity around the plant.",
+        "Spray copper-based fungicides during the early stages of infection."
+      ],
+      "fertilizers": "Use balanced fertilizers, avoiding excess nitrogen, which may encourage fungal growth.",
+      "prevention": [
+        "Space plants adequately to ensure good airflow and reduce humidity around the foliage.",
+        "Remove fallen leaves and plant debris regularly.",
+        "Avoid working with wet plants to minimize the spread of spores.",
+        "Use resistant guava varieties if available in your region."
+      ]
+    },
+    {
+      "disease_name": "Guava Scab",
+      "scientific_name": "Cladosporium psidii",
+      "symptoms": [
+        "Small, dark, sunken lesions on the leaves and fruits.",
+        "Lesions may coalesce, causing severe leaf deformation.",
+        "Blackened fruit spots that result in poor fruit quality and early drop.",
+        "Defoliation in severe cases, reducing plant vigor."
+      ],
+      "background": {
+        "cause": "Fungal disease caused by *Cladosporium psidii*, which thrives in moist, humid conditions.",
+        "spread_by": "Rain, wind, and contaminated plant material."
+      },
+      "cure": [
+        "Apply fungicides like Mancozeb or Chlorothalonil at the onset of symptoms.",
+        "Remove and destroy infected leaves and fruits to reduce the spread of spores.",
+        "Prune infected branches and maintain proper spacing to improve air circulation.",
+        "Spray fungicides regularly, especially during the rainy season or humid periods."
+      ],
+      "fertilizers": "Use balanced fertilizers with micronutrients to promote healthy plant growth.",
+      "prevention": [
+        "Ensure good spacing between plants to allow airflow and reduce humidity around leaves.",
+        "Avoid overhead irrigation to prevent water droplets from spreading fungal spores.",
+        "Clean tools and equipment regularly to prevent cross-contamination between plants."
+      ]
+    },
+    {
+      "disease_name": "Guava Styler and Root",
+      "scientific_name": "Ceratocystis fimbriata",
+      "symptoms": [
+        "Stunted growth and wilting of young plants.",
+        "Yellowing of leaves, followed by dieback of branches and roots.",
+        "Brown, decayed roots and discolored vascular tissue.",
+        "Premature fruit drop and reduced yield."
+      ],
+      "background": {
+        "cause": "Fungal disease caused by *Ceratocystis fimbriata*, which attacks the roots and vascular system of guava plants.",
+        "spread_by": "Contaminated soil, plant material, and water."
+      },
+      "cure": [
+        "Remove infected plants and destroy them to prevent disease spread.",
+        "Apply fungicides such as Azoxystrobin or Thiophanate-methyl to control root rot and vascular infections.",
+        "Improve soil drainage and reduce over-watering to prevent the disease.",
+        "Disinfect tools and equipment regularly to avoid contamination between plants."
+      ],
+      "fertilizers": "Use phosphorus and potassium-rich fertilizers to strengthen plant roots and improve resistance to fungal infections.",
+      "prevention": [
+        "Avoid planting guava in waterlogged areas and improve soil drainage.",
+        "Use disease-free planting material and avoid planting in previously infected soil.",
+        "Practice crop rotation to reduce the buildup of pathogens in the soil.",
+        "Maintain good field hygiene by removing fallen leaves and plant debris."
+      ]
+    }
+  ],
+  "preventive_practices": [
+    "Use disease-free seedlings and planting material",
+    "Ensure good drainage in the soil to prevent waterlogging",
+    "Space plants adequately to improve air circulation and reduce humidity",
+    "Remove fallen leaves and plant debris regularly to reduce fungal spore buildup",
+    "Apply fungicides preventively, especially during humid and rainy conditions",
+    "Practice crop rotation to reduce the build-up of soil-borne pathogens"
+  ]
+}

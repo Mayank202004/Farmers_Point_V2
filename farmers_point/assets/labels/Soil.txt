@@ -1,0 +1,8 @@
+Alluvial Soil
+Black Soil
+Cinder Soil
+Clay Soil
+Laterite Soil
+Peat Soil
+Red Soil
+Yellow Soil

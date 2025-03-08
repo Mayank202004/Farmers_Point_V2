@@ -1,0 +1,96 @@
+{
+  "plant_name": "Grape",
+  "scientific_name": "Vitis vinifera",
+  "description": "Grapes are one of the oldest cultivated fruits, widely grown for their sweet, juicy berries. They are consumed fresh, dried as raisins, or used in wine production. Grapes thrive in temperate climates and are highly valued for their nutritional content, including vitamins A, C, and K.",
+  "uses": [
+    "Fresh consumption",
+    "Raisins",
+    "Wine production",
+    "Juices",
+    "Jams"
+  ],
+  "climate": {
+    "temperature": {
+      "optimal_range": "20°C to 30°C",
+      "too_low": "Below 10°C",
+      "too_high": "Above 35°C"
+    },
+    "humidity": {
+      "optimal_range": "50% to 70%"
+    },
+    "soil": {
+      "type": "Well-drained, sandy loam soil with organic matter",
+      "pH_range": "6.0 to 6.5"
+    },
+    "watering": "Water regularly, but avoid waterlogging. Ensure good drainage, especially during the fruit ripening stage."
+  },
+  "diseases": [
+    {
+      "disease_name": "Grape Black Measles",
+      "scientific_name": "Phomopsis viticola",
+      "symptoms": [
+        "Small, round, dark brown to black spots on leaves and stems.",
+        "Yellowing of leaves surrounding spots, followed by defoliation.",
+        "Dark lesions on the fruit, leading to poor fruit quality and loss of yield.",
+        "Premature aging of the plant and weakened vine structure."
+      ],
+      "background": {
+        "cause": "Fungal disease caused by *Phomopsis viticola*, which thrives in cool, moist conditions.",
+        "spread_by": "Rain, irrigation water, contaminated equipment, and plant debris."
+      },
+      "cure": [
+        "Apply fungicides such as Azoxystrobin or Captan at the onset of symptoms.",
+        "Remove and destroy infected plant material to prevent disease spread.",
+        "Prune affected vines and dispose of infected plant debris far from the vineyard.",
+        "Apply fungicides early in the growing season to prevent initial infection.",
+        "Ensure proper airflow around the vines by spacing them adequately and pruning excess foliage."
+      ],
+      "fertilizers": "Use balanced fertilizers with an NPK ratio suited for grapevines, avoiding excessive nitrogen.",
+      "prevention": [
+        "Space plants to ensure good airflow, reducing humidity around the plant.",
+        "Remove fallen leaves and plant debris regularly to reduce fungal spores.",
+        "Avoid overhead irrigation to minimize leaf wetness, which favors fungal growth.",
+        "Use resistant grapevine varieties if available for the region.",
+        "Monitor weather conditions and apply preventative fungicides during periods of high moisture."
+      ]
+    },
+    {
+      "disease_name": "Grape Black Rot",
+      "scientific_name": "Guignardia bidwellii",
+      "symptoms": [
+        "Circular, dark lesions with a characteristic red-brown halo on leaves.",
+        "Black, sunken lesions on fruit that become dry and shriveled.",
+        "Defoliation and premature leaf drop, weakening the vine.",
+        "Affected fruit becomes inedible, reducing crop yield and quality."
+      ],
+      "background": {
+        "cause": "Fungal disease caused by *Guignardia bidwellii*, which thrives in humid, rainy conditions.",
+        "spread_by": "Rain, wind, and contaminated plant material."
+      },
+      "cure": [
+        "Apply fungicides such as Myclobutanil or Sulfur fungicides at regular intervals, especially during humid conditions.",
+        "Remove infected fruit and plant debris from the vineyard immediately to prevent the spread of the disease.",
+        "Thin out dense canopy growth to improve air circulation and reduce humidity around the plant.",
+        "Prune away affected canes and vines, and dispose of them properly.",
+        "Monitor plants closely during the growing season, especially during wet periods, and apply fungicides as needed."
+      ],
+      "fertilizers": "Use potassium-rich fertilizers to help strengthen the vines' resistance to fungal diseases.",
+      "prevention": [
+        "Prune the vines regularly to maintain good air circulation and remove infected plant material.",
+        "Use certified disease-free plants to prevent initial infection.",
+        "Space plants properly to avoid overcrowding and ensure good airflow.",
+        "Avoid working with wet plants to prevent spreading fungal spores from one vine to another.",
+        "Use disease-resistant grape varieties where possible."
+      ]
+    }
+  ],
+  "preventive_practices": [
+    "Use disease-free plants and certified seeds",
+    "Practice proper vineyard hygiene by removing plant debris and fallen leaves",
+    "Space plants adequately to ensure proper airflow and reduce humidity around the vines",
+    "Use drip irrigation to minimize water contact with foliage",
+    "Apply fungicides preventively, especially during humid or rainy periods",
+    "Monitor the vineyard regularly for early signs of disease",
+    "Rotate vineyards and avoid planting in the same spot every season"
+  ]
+}

@@ -1,0 +1,92 @@
+[
+    {
+      "season_name": "Summer",
+      "description": "Summer is characterized by hot weather with longer days and higher temperatures. It typically spans from March to June in many regions, and the heat can be intense, leading to water evaporation and increased need for hydration. Crops and plants grown during summer require sufficient water and care against heat stress.",
+      "key_characteristics": {
+        "temperature_range": "25°C to 40°C",
+        "humidity": "Low to moderate",
+        "precipitation": "Low",
+        "daylight_hours": "Longer days"
+      },
+      "plants_that_can_grow_well": [
+        "Tomato",
+        "Cucumber",
+        "Sunflower",
+        "Pepper",
+        "Melon",
+        "Maize",
+        "Corn",
+        "Watermelon"
+      ],
+      "best_for": [
+        "Heat-loving plants",
+        "Crops requiring long, warm growing seasons"
+      ],
+      "watering_requirements": "High watering needs, frequent watering to prevent wilting due to heat.",
+      "maintenance_tips": [
+        "Mulching to retain soil moisture",
+        "Watering in the early morning or late evening to avoid evaporation",
+        "Providing shade for sensitive plants"
+      ]
+    },
+    {
+      "season_name": "Winter",
+      "description": "Winter is the coldest season, typically spanning from December to February, depending on the region. It brings shorter days and lower temperatures, and some areas may experience frost. Crops grown during winter are typically cold-tolerant and require less water.",
+      "key_characteristics": {
+        "temperature_range": "0°C to 15°C",
+        "humidity": "High",
+        "precipitation": "Possible snow or rain",
+        "daylight_hours": "Shorter days"
+      },
+      "plants_that_can_grow_well": [
+        "Cabbage",
+        "Spinach",
+        "Lettuce",
+        "Cauliflower",
+        "Broccoli",
+        "Carrots",
+        "Peas",
+        "Garlic"
+      ],
+      "best_for": [
+        "Cold-resistant crops",
+        "Root vegetables",
+        "Leafy greens"
+      ],
+      "watering_requirements": "Low watering needs due to cold temperatures and slow evaporation.",
+      "maintenance_tips": [
+        "Using frost covers for sensitive plants",
+        "Planting crops that can tolerate cold weather",
+        "Mulching to protect roots from freezing"
+      ]
+    },
+    {
+      "season_name": "Rainy",
+      "description": "The rainy season, also known as the monsoon season in many regions, typically spans from June to September. It is characterized by heavy rainfall, high humidity, and cooler temperatures. This season is crucial for water-dependent crops but can also pose challenges like flooding and waterlogging.",
+      "key_characteristics": {
+        "temperature_range": "20°C to 30°C",
+        "humidity": "High",
+        "precipitation": "High (heavy rainfall)",
+        "daylight_hours": "Moderate to long days"
+      },
+      "plants_that_can_grow_well": [
+        "Rice",
+        "Sugarcane",
+        "Taro",
+        "Cucumber",
+        "Tomato",
+        "Ginger",
+        "Green beans"
+      ],
+      "best_for": [
+        "Water-loving crops",
+        "Crops needing a lot of rainfall"
+      ],
+      "watering_requirements": "Waterlogging can occur, so proper drainage is essential. Water-loving plants thrive in this season.",
+      "maintenance_tips": [
+        "Ensure proper drainage to avoid waterlogging",
+        "Use raised beds for crops prone to root rot",
+        "Monitor plants for signs of fungal infections or mildew due to high humidity"
+      ]
+    }
+]

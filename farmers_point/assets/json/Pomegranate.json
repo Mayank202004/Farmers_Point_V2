@@ -1,0 +1,134 @@
+{
+  "plant_name": "Pomegranate",
+  "scientific_name": "Punica granatum",
+  "description": "Pomegranate is a fruit-bearing shrub or small tree native to the Middle East and South Asia. Known for its juicy red seeds, pomegranate is a rich source of antioxidants and vitamin C, often used in juices, salads, and culinary dishes. The plant thrives in arid and semi-arid regions and is valued for its health benefits.",
+  "uses": [
+    "Fresh fruit consumption",
+    "Pomegranate juice",
+    "Medicinal purposes (antioxidants)",
+    "Culinary use (salads, sauces, desserts)",
+    "Extracts for cosmetics"
+  ],
+  "climate": {
+    "temperature": {
+      "optimal_range": "20°C to 30°C",
+      "too_low": "Below 10°C",
+      "too_high": "Above 40°C"
+    },
+    "humidity": {
+      "optimal_range": "40% to 60%"
+    },
+    "soil": {
+      "type": "Well-drained, sandy loam soils",
+      "pH_range": "5.5 to 7.0"
+    },
+    "watering": "Pomegranates are drought-tolerant but perform best with moderate irrigation, especially during fruit development. Overwatering can cause root rot and fungal diseases."
+  },
+  "diseases": [
+    {
+      "disease_name": "Pomegranate Alternaria",
+      "scientific_name": "Alternaria alternata",
+      "symptoms": [
+        "Dark brown to black spots with yellow margins on leaves.",
+        "Premature leaf drop.",
+        "Lesions on fruit with dark, sunken spots.",
+        "Reduced fruit yield and quality."
+      ],
+      "background": {
+        "cause": "A fungal disease caused by *Alternaria alternata* that affects the leaves, fruits, and stems of pomegranate plants.",
+        "spread_by": "Wind, rain, and infected plant debris."
+      },
+      "cure": [
+        "Apply fungicides like Mancozeb or Azoxystrobin.",
+        "Remove and destroy infected plant parts to reduce spread.",
+        "Ensure good air circulation and avoid overhead watering."
+      ],
+      "fertilizers": "Use balanced fertilizers, especially nitrogen, to support plant health and improve resistance to fungal diseases.",
+      "prevention": [
+        "Plant in well-drained soils with proper spacing between plants.",
+        "Apply preventive fungicides before wet seasons.",
+        "Practice crop rotation to reduce pathogen buildup."
+      ]
+    },
+    {
+      "disease_name": "Pomegranate Anthracnose",
+      "scientific_name": "Colletotrichum gloeosporioides",
+      "symptoms": [
+        "Dark, sunken lesions on fruits, often leading to soft rot.",
+        "Black streaks and spots on stems and leaves.",
+        "Premature fruit drop and shriveling.",
+        "Reduced yield and fruit quality."
+      ],
+      "background": {
+        "cause": "A fungal disease caused by *Colletotrichum gloeosporioides*, affecting both fruit and vegetative parts of the plant.",
+        "spread_by": "Infected seeds, contaminated tools, and environmental conditions like high humidity."
+      },
+      "cure": [
+        "Apply fungicides like Chlorothalonil or Carbendazim.",
+        "Remove infected fruits and leaves to prevent further spread.",
+        "Improve plant spacing for better air circulation."
+      ],
+      "fertilizers": "Avoid excessive nitrogen application, which can favor fungal growth. Use balanced fertilizers for overall plant health.",
+      "prevention": [
+        "Ensure proper field sanitation by removing plant debris.",
+        "Use disease-resistant pomegranate varieties where available.",
+        "Maintain proper irrigation techniques to avoid wetting the foliage."
+      ]
+    },
+    {
+      "disease_name": "Pomegranate Bacterial Blight",
+      "scientific_name": "Xanthomonas axonopodis",
+      "symptoms": [
+        "Water-soaked lesions on leaves, followed by yellowing and necrosis.",
+        "Gum oozing from affected fruit.",
+        "Browning and splitting of stems and branches.",
+        "Reduced plant vigor and poor fruit quality."
+      ],
+      "background": {
+        "cause": "A bacterial disease caused by *Xanthomonas axonopodis*, which affects pomegranate leaves, stems, and fruits.",
+        "spread_by": "Rain, irrigation water, infected tools, and splashing water."
+      },
+      "cure": [
+        "Use copper-based bactericides like Copper Hydroxide.",
+        "Prune infected branches and disinfect tools to reduce spread.",
+        "Avoid overhead irrigation to prevent bacterial spread."
+      ],
+      "fertilizers": "Balanced fertilizers, especially potassium, should be used to improve resistance to bacterial infections.",
+      "prevention": [
+        "Plant in well-drained soils with good air circulation.",
+        "Use certified disease-free planting material.",
+        "Implement regular field sanitation and avoid waterlogging."
+      ]
+    },
+    {
+      "disease_name": "Pomegranate Cercospora",
+      "scientific_name": "Cercospora punicae",
+      "symptoms": [
+        "Circular, dark brown lesions on the upper side of leaves.",
+        "Yellow halo around the lesions, causing premature leaf drop.",
+        "Reduced photosynthetic capacity and stunted plant growth."
+      ],
+      "background": {
+        "cause": "A fungal disease caused by *Cercospora punicae*, affecting mainly the leaves and leading to reduced vigor.",
+        "spread_by": "Rain and contaminated plant material."
+      },
+      "cure": [
+        "Spray with fungicides like Copper Oxychloride or Thiophanate Methyl.",
+        "Remove infected leaves to reduce the source of infection.",
+        "Avoid high humidity and overcrowded plants."
+      ],
+      "fertilizers": "Apply balanced fertilizers with emphasis on potassium to reduce disease susceptibility.",
+      "prevention": [
+        "Practice crop rotation and avoid planting pomegranates in areas with a history of fungal diseases.",
+        "Ensure proper plant spacing to promote airflow and reduce humidity."
+      ]
+    }
+  ],
+  "preventive_practices": [
+    "Regularly monitor plants for early signs of fungal and bacterial infections.",
+    "Apply fungicides preventively during wet conditions to reduce disease spread.",
+    "Ensure proper spacing to allow adequate airflow and reduce humidity around the plants.",
+    "Remove and destroy infected plant material to limit disease spread.",
+    "Use certified disease-free seeds and resistant varieties when available."
+  ]
+}
