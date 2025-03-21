@@ -47,7 +47,8 @@ class LoginState extends State<Login> {
               key: _form,
               child: Column(
                 children: [
-                  Image.asset("assets/images/logo_png.png",width: 60,height: 60,),
+                  Image.asset("assets/images/logo.png",width: 60,height: 60,),
+                  Image.asset("assets/images/logo.png",width: 60,height: 60,),
                   const SizedBox(height:20),
                   const Align(
                       alignment: Alignment.topLeft,

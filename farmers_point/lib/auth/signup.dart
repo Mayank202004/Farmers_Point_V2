@@ -50,7 +50,7 @@ class _signupState extends State<Signup> {
               key: _form,
               child: Column(
                 children: [
-                  Image.asset("assets/images/logo_png.png",width: 50,height: 50,),
+                  Image.asset("assets/images/logo.png",width: 50,height: 50,),
                   const SizedBox(height:20),
                   const Align(
                       alignment: Alignment.topLeft,
