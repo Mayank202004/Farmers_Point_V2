@@ -11,7 +11,6 @@ class ImageAvatar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('url: $url');
     return Column(
       children: [
         if(file!=null)

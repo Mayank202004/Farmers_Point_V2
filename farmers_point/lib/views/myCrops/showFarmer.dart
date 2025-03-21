@@ -105,7 +105,7 @@ class _ShowFarmerState extends State<ShowFarmer> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text("Overall Profit",style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                    const Text("Overall Profit",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                     // Use Obx to reactively update the Overall Profit
                     Obx(() {
                       return Text(
@@ -189,7 +189,7 @@ class _ShowFarmerState extends State<ShowFarmer> {
                     },
                   ),
 
-                  SizedBox(height: 10,),
+                  const SizedBox(height: 10,),
                   const Text("Overall Expenses",style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold),),
                   controller.expenseSummary.isEmpty
                       ? const Center(child: Text('No Expenses yet', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)))

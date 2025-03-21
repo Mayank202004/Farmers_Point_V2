@@ -1,0 +1,1 @@
+ C:\\Users\\mayan\\Documents\\GitHub\\Farmers_Point_V2\\farmers_point\\.dart_tool\\flutter_build\\2b6da76eac2482c6210011b8eb8d6fa4\\native_assets.json: 

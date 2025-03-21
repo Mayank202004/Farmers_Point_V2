@@ -34,7 +34,7 @@ class MyCropsDashboard extends StatelessWidget {
                       color: const Color(0x1F857171),
                     ),
                     child:  Padding(
-                      padding: EdgeInsets.all(10),
+                      padding: const EdgeInsets.all(10),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
@@ -148,7 +148,6 @@ class MyCropsDashboard extends StatelessWidget {
                         ),
                         trailing: const Icon(Icons.chevron_right),
                         onTap: () {
-                          print("on tap ${controller.selectedCrops[index]}");
                           Get.toNamed(
                             RouteNames.ManagePlant,
                             arguments: controller.selectedCrops[index],

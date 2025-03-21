@@ -20,6 +20,7 @@ class InfoController extends GetxController{
   RxBool loading = false.obs;
   final SupabaseService supabaseService = Get.find<SupabaseService>();
 
+  @override
   void onInit(){
     fetchInfo();
     super.onInit();

@@ -47,7 +47,6 @@ class _ManagePlantState extends State<ManagePlant> with SingleTickerProviderStat
         controller.isAddingTransaction = false;
       });
       showSnackBar("Error", "Something went wrong");
-      print(e);
     }
   }
 
@@ -464,7 +463,7 @@ class _ManagePlantState extends State<ManagePlant> with SingleTickerProviderStat
                     color: transaction.type == "Expense" ? Colors.red : Colors.green,
                   ),
                 ),
-                Divider()
+                const Divider()
               ],
             ),
           );

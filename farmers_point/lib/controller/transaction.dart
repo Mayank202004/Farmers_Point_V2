@@ -84,7 +84,6 @@ class TransactionController extends GetxController {
         loading.value = false;
         return;
       }
-      print("Crop:$crop");
       // Fetch transactions from the Supabase table
       final response = await SupabaseService.SupabaseClientclient
           .from('transactions')
@@ -95,11 +94,9 @@ class TransactionController extends GetxController {
           .order('id', ascending: false); // Sort by ID in descending order if date is equal
       transactions.value = [for(var item in response) TransactionModel.fromJson(item)];
       updateProfitAndExpense();
-      print(response);
       loading.value=false;
     } catch (e) {
       loading.value=false;
-      print("Error fetching transactions: $e");
       showSnackBar("Error", "Failed to load transactions");
     }
   }

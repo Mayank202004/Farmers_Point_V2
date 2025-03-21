@@ -66,9 +66,6 @@ class ViewsController extends GetxController{
       loading.value=false;
       showSnackBar("Error", "Something went wrong");
     }
-    finally{
-
-    }
   }
 
   // update post

@@ -20,7 +20,6 @@ class CommunityController extends GetxController{
     id,content,image,created_at,like_count,comment_count,user_id,
     user:user_id (email,isVerified,metadata), likes:likes (user_id, post_id)
      ''').order("id",ascending: false);
-    print(response);
     loading.value=false;
     // If response is not empty then convert json to list using Model
     if(response.isNotEmpty){

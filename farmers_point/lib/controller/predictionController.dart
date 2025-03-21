@@ -168,7 +168,6 @@ class PredictionController extends GetxController{
           threshold: 0.5,
         );
         if(selectedCategory.value==2){
-          print("hello :  ============= ${prediction![0]['label']}");
           Get.toNamed(RouteNames.ShowSoil,arguments: prediction![0]['label']);
         }
         else {
@@ -186,7 +185,6 @@ class PredictionController extends GetxController{
         await Tflite.close();
       }
       }catch(e){
-      print(e);
         showSnackBar("Error", "Model not found ");
     }
   }
@@ -203,11 +201,8 @@ class PredictionController extends GetxController{
       plant = PlantModel.fromJson(jsonData); // Assuming PlantModel has a fromJson method
       Disease? disease;
       try {
-        print(plantType);
-        print(diseaseName);
         disease = plant.diseases?.firstWhere((d) => d.diseaseName == diseaseName);
       } catch (e) {
-        print(e);
         // If no matching disease is found, set a default "Unknown" disease
         showSnackBar("Error", "Failed to fetch disease information");
       }

@@ -54,7 +54,6 @@ class ProfileController extends GetxController {
     } on StorageException catch (error) {
       loading.value = false;
       showSnackBar("Error", error.message);
-      print(error);
     } on AuthException catch (error) {
       loading.value = false;
       showSnackBar("Error", error.message);

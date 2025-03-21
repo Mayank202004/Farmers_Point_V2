@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: theme,
-      title: 'Flutter Demo',
+      title: 'Farmers Point',
       getPages: Routes.pages,
       initialRoute: StorageService.userSession != null ? RouteNames.Home : RouteNames.Login,
 

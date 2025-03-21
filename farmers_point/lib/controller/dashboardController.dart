@@ -87,7 +87,6 @@ class DashboardController extends GetxController {
     }catch(e){
       profit.value=0;
       showSnackBar("Error", "Cannot load total profit");
-      print(e);
     }
   }
 
