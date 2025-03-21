@@ -26,9 +26,9 @@ class PredictionController extends GetxController{
   void checkPermission(PredictionController predictionController,BuildContext context) async{
   // Request storage permission
   PermissionStatus storageStatus;
-  if (await Permission.storage.isGranted ||
-    await Permission.storage.request().isGranted ||
-    await Permission.photos.request().isGranted) { // for Android 13+
+  if (await Permission.photos.request().isGranted ||  // Android 13+
+      await Permission.storage.request().isGranted ||  // Android <13
+      await Permission.manageExternalStorage.request().isGranted) { // If full access needed
     storageStatus = PermissionStatus.granted;
   } else {
     storageStatus = PermissionStatus.denied;
@@ -44,26 +44,39 @@ class PredictionController extends GetxController{
 }
 
   // ==================== PICK IMAGE FROM GALLERY =======================
-  _imgFromGallery() async{
-    await picker.pickImage(
-        source: ImageSource.gallery,
-        imageQuality: 100).then((value){
-          if(value!=null){
-            _cropImage(File(value.path));
-          }
-    });
+  _imgFromGallery() async {
+    try {
+      final XFile? pickedFile = await picker.pickImage(
+          source: ImageSource.gallery, imageQuality: 100);
+
+      if (pickedFile == null) {
+        debugPrint("User canceled image selection.");
+        return; // Prevent crash
+      }
+      _cropImage(File(pickedFile.path));
+    } catch (e) {
+      debugPrint("Error picking image: $e");
+    }
   }
 
   // ==================== PICK IMAGE FROM CAMERA =======================
-  _imgFromCamera() async{
-    await picker.pickImage(
-        source: ImageSource.camera,
-        imageQuality: 100).then((value){
-      if(value!=null){
-        _cropImage(File(value.path));
+
+
+  _imgFromCamera() async {
+    try {
+      final XFile? pickedFile = await picker.pickImage(
+          source: ImageSource.camera, imageQuality: 100);
+
+      if (pickedFile == null) {
+        debugPrint("User canceled image capture.");
+        return;
       }
-    });
+      _cropImage(File(pickedFile.path));
+    } catch (e) {
+      debugPrint("Error capturing image: $e");
+    }
   }
+
 
   // ==================== CROP PICKED IMAGE =======================
   _cropImage(File imgFile) async {
@@ -114,9 +127,9 @@ class PredictionController extends GetxController{
                             Text("Gallery",textAlign: TextAlign.center,style: TextStyle(fontSize: 16),)
                           ],
                         ),
-                        onTap: (){
-                          _imgFromGallery();
+                        onTap: () async {
                           Navigator.pop(context);
+                          await _imgFromGallery();
                         },
                       )),
                   Expanded(
