@@ -26,12 +26,19 @@ class ViewsController extends GetxController{
   RxList<ReplyModel> replies = RxList<ReplyModel>();
 
   // To pick image to share with view
-  void pickImage() async{
+  void pickImage() async {
+    String currentText = content.value; // Store existing content
+
     File? file = await pickImageFromGallery();
-    if(file!=null){
-      image.value=file;
+    if (file != null) {
+      image.value = file;
+      image.refresh();  // Ensure UI updates without clearing text
     }
+
+    content.value = currentText; // Restore text
+    textEditingController.text = currentText; // Ensure UI reflects the change
   }
+
 
   void post(String userId) async{
     try {
@@ -57,12 +64,12 @@ class ViewsController extends GetxController{
       //resetState();
       showSnackBar("Success", "View added Successfully");
     }on StorageException catch(error){
-      resetState();
+      // resetState();
       loading.value=false;
       showSnackBar("Error", error.message);
     }
     catch(error){
-      resetState();
+      // resetState();
       loading.value=false;
       showSnackBar("Error", "Something went wrong");
     }
@@ -76,17 +83,17 @@ class ViewsController extends GetxController{
       final response = await SupabaseService.SupabaseClientclient
           .from("posts")
           .update({
-        "content": content,
+        "content": content.value,
       }).eq("id", postId);  // Update the post where the ID matches
       loading.value = false;
       Get.toNamed(RouteNames.Home);
       showSnackBar("Success", "View updated successfully");
     } on StorageException catch (error) {
-      resetState();
+      // resetState();
       loading.value = false;
       showSnackBar("Error", error.message);
     } catch (error) {
-      resetState();
+      // resetState();
       loading.value = false;
       showSnackBar("Error", "Something went wrong");
     }
@@ -182,15 +189,15 @@ class ViewsController extends GetxController{
 
 
 
-// to reset add view variables state
-  void resetState(){
-    content.value="";
-    image.value=null;
-  }
+// // to reset add view variables state
+//   void resetState(){
+//     content.value="";
+//     image.value=null;
+//   }
 
   @override
   void onClose(){
-    textEditingController.dispose();
+    //textEditingController.dispose();
     super.onClose();
   }
 }
